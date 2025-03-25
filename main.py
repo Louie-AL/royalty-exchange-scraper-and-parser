@@ -16,7 +16,8 @@ import csv
 def read_asset_ids_from_csv(path: str) -> list:
     with open(path, "r") as f:
         return [int(row["asset_id"]) for row in csv.DictReader(f)]
-
+FINANCIALS_OUTPUT = "financials.csv"
+OFFERS_OUTPUT = "offers.csv"
 
 logger = setup_logger()
 

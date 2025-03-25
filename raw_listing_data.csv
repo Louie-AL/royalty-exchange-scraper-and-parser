@@ -1,33 +1,166 @@
 id,accept_final_offers,accepting_final_offers_end_at,accepting_final_offers_start_at,accepting_final_offers_initial_offer,active_listing_valuation_id,asset,buy_now_price,buy_now_price_multiple,buy_now_price_multiple_source,custom_earnings_by_region_chart,default_buy_now_price,earnings_file,expiration,featured_source,generic_financials,hidden,included_rights,is_eligible_to_withdraw_offers_placed_before_update,is_featured,is_in_feature_queue,is_owner,is_track_list_hidden,kind,marketplace_median,marketplace_median_multiplier,marketplace_median_source,minimum_price,offers_awaiting_acceptance,offers_received_count,other_info,owner_last_active_date,performing_artist_analysis,proxy_increment_amount,published_date,requested_buy_now_price,royx_take,seller_id,state,term,term_expiration,term_return_amount,thumbnail_large,title,track_count,unique_bidder_count,valuation_description,last_websocket_message_published_at,Listing ID
-6122,True,2025-03-21T00:10:27.004641Z,2025-03-20T00:01:48.992675Z,104866,782002,33557,,,,,,,,,,False,,False,False,False,False,True,direct_listing,,,,75000.00,False,20,"<p>This is a unique asset with a 142-year earning history of monthly payments for gross sales of Listerine Antiseptic. This royalty income is derived from what has been called one of the most remarkable business transactions in U.S. business history. As the winning bidder, you&rsquo;ll own a royalty interest in the gross global sales of Listerine Antiseptic mouthwash.&nbsp;</p>
+5699,True,,,,733390,28131,25600.00,5.99,ltm,,,,,,,False,,False,False,False,False,False,secondary_listing,,,,23000.00,False,5,,2024-07-21T10:48:18.887058Z,,300.00,2024-05-24T18:48:36.898408Z,,0.0640,38121,filled,life_of_rights,,,,"Lil Durk's ""Petty Too"" - Songwriter Royalties",2,1,,2025-01-16T20:26:35.412743Z,5699
+5677,True,,,,733822,27826,21944.27,4.84,ltm,,14200.0,,2024-07-17T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"**,***",,,10000.00,False,6,"<p><strong>Distribution Schedule:</strong> PRS regularly distributes royalties four times per year: April, July, October, and December. PRS may pay &quot;out of cycle&quot; distributions at various times of the year. These dates are estimated. As the winning bidder, you&#39;ll be entitled to all scheduled and &quot;out of cycle&quot; distributions.&nbsp;<br />
+Payments are represented by quarter in the financial bar charts of this listing based on the below dates.<br />
+&nbsp;</p>
 
-<p><strong>What is Being Sold.&nbsp;</strong>A royalty interest in gross sales of Listerine Antiseptic. The royalty interest is derived from an 1881 agreement between the inventor of the Listerine formula and the original distributor of the Listerine product. The royalty agreement calls for a flat rate royalty on worldwide Listerine sales, for as long as Listerine is sold. The agreement has been in effect since 1881, and in 1959 its perpetual nature was upheld in U.S. federal court.</p>
+<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<thead>
+		<tr>
+			<th scope=""col"">
+			<p><strong>Quarter</strong></p>
+			</th>
+			<th scope=""col"">
+			<p><strong>Payment Month</strong></p>
+			</th>
+			<th scope=""col"">
+			<p><strong>Scheduled Distribution</strong></p>
+			</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1Q</td>
+			<td>Jan-April</td>
+			<td>April</td>
+		</tr>
+		<tr>
+			<td>2Q</td>
+			<td>May-July</td>
+			<td>July</td>
+		</tr>
+		<tr>
+			<td>3Q</td>
+			<td>Aug-Oct</td>
+			<td>October</td>
+		</tr>
+		<tr>
+			<td>4Q</td>
+			<td>Nov-Dec</td>
+			<td>December</td>
+		</tr>
+	</tbody>
+</table>
 
-<p><strong>About the Asset.&nbsp;</strong>In 1879, Dr. JJ Lawrence invented Listerine and in 1881, licensed the secret formula to J.W. Lambert and Lambert Pharmaceutical Co., ultimately settling on a royalty based on the number of ounces sold, to be paid to him and his &ldquo;heirs, executors, or assigns&rdquo; for as long as Listerine was sold.</p>
+<div>
+<table style=""border:none; border-collapse:collapse"" width=""612"">
+	<colgroup>
+		<col width=""121"" />
+		<col width=""208"" />
+		<col width=""283"" />
+	</colgroup>
+</table>
+</div>
 
-<p>For the next 75 years, the Lawrence family collected these royalties, with the ownership stake splintering between various heirs, some of whom sold portions of their stake to additional owners (such as New York real estate broker John J. Reynolds, who acquired half of the share of these royalties from the Lawrence heirs in 1950).&nbsp;</p>
-
-<p>After Lambert Pharmaceutical merged with Warner-Hudnut in 1955, the newly merged management contested the $1.5 million a year they were paying in royalties in court&hellip; <a href=""https://law.justia.com/cases/federal/district-courts/FSupp/178/655/1642490/""><u>a case they famously lost</u></a> in a decision that remains cited in contract law cases and classes today.&nbsp;</p>
-
-<p>As a result of this decision, the Listerine royalty payments will remain in force for the lifetime of the brand, paid to whoever owns a share. Today, those entities include not only the heirs of the Lawrence family, but also various pension funds, universities, hospitals, and multiple individuals.&nbsp;</p>
-
-<p><strong>Payment Schedule.&nbsp;</strong>U.S.-generated royalties are paid monthly, based on the prior months&rsquo; sales. Royalties from sales in all other countries are paid on a quarterly basis. These sales royalties are calculated on the gross sales of Listerine Antiseptic by Johnson &amp; Johnson.</p>
-
-<p>You&rsquo;ll notice a spike in payments in the last month of every quarter (March, June, September, and December) due to the quarterly foreign royalty payments.<br />
+<p><br />
+<strong>Exchange Rates. </strong>Royalties for this asset are reported by PRS in Great British Pounds (GBP). To calculate royalty payments in U.S. Dollars (USD), Royalty Exchange applies the average historical exchange rate for the distribution month (via X-rates.com).<br />
 <br />
-<strong>Similar Listings.&nbsp;</strong>Recently a similar share of Listerine&nbsp;was sold via <a href=""https://auctions.royaltyexchange.com/orderbook/asset-detail/5538"">Asset ID 5538 for 31 x the Last 12 Months&#39; earnings.</a>&nbsp;<br />
+Future royalties will be paid to Royalty Exchange in GBP converted to USD upon receipt, and then paid in USD to the winning investor. The receiving bank may increase the exchange rate by up to 2.5% as a transaction fee.&nbsp;</p>
+
+<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em><br />
+&nbsp;</p>",2024-05-13T16:16:47.396702Z,"<p>&ldquo;Gonna Be Alright&rdquo; by Ryan Ellis was released on May 13th, 2022. It blends contemporary Christian pop with elements of gospel, featuring a mix of acoustic instruments and subtle electronic sounds. This combination supports the uplifting message without overwhelming it.<br />
 <br />
-<em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em></p>",2025-03-19T23:20:55.658914Z,,500.00,2025-03-14T17:00:36.833457Z,,0.1500,149691,pending,life_of_rights,,,https://dh22twu0ekfg6.cloudfront.net/media/orderbook/listings/6122/dalle_20250313_160808__large.webp,Listerine Mouthwash - Royalties in Perpetuity,1,6,,2025-03-21T00:10:29.156079Z,6122
-6089,True,2025-03-20T06:14:12.645244Z,2025-03-19T06:14:12.645244Z,104718,782773,30476,,,,"<p style=""text-align: center;""><img alt="""" src=""https://311870.fs1.hubspotusercontent-na1.net/hubfs/311870/Listing%20Images/ASCAP%20earnings.png"" style=""width: 100%; height: 100%;"" /></p>
+Chris McClarney is a contemporary Christian musician, songwriter, and worship leader known for his powerful vocals and heartfelt lyrics. He gained prominence in the Christian music scene through his involvement in leading worship at influential churches and events. &quot;Speak to the Mountains&#39;&#39; was released on May 28th, 2021 as part of McClarney&#39;s EP of the same name. It emphasizes faith and resilience through the metaphor of speaking to mountains, a biblical reference that suggests the power of faith to overcome obstacles. &nbsp;</p>
 
-<h2><img alt="""" src=""https://311870.fs1.hubspotusercontent-na1.net/hubfs/311870/Listing%20Images/BMI%20Earnings1-1.png"" style=""width: 100%; height: 100%;"" />&nbsp; &nbsp; &nbsp;&nbsp;&nbsp;</h2>",44600.0,,,,,False,,False,False,False,False,False,direct_listing,"**,***",,,12500.00,False,39,"<p><strong>Earnings Note.</strong>&nbsp;The Earnings by Period chart below reflects royalty payments based on two distinct statement sets from different payors. The Last 12 Months include:</p>
+<p>Every Victory&quot; by The Belonging Co, featuring Danny Gokey, is a contemporary worship song that has made a notable impact within the Christian music community. It was released on February 5, 2021, as part of The Belonging Co&#39;s third live album &quot;See the Light.&quot; The song has achieved commercial success, debuting at No. 40 on the US Hot Christian Songs chart and peaking at No. 29.</p>",300.00,2024-05-10T17:00:34.550775Z,,0.1708,144624,filled,life_of_rights,,,,"Ryan Ellis, Chris McClarney, The Belonging Co + More Songwriter Royalties",41,2,5330.0,2025-01-16T20:26:35.412743Z,5677
+5757,True,,,,731577,28670,8500.00,6.74,ltm,,7400.0,,2024-08-30T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"*,***",,,2000.00,False,15,"<p><strong>Earnings note.</strong>&nbsp;The last 12 months&#39; earnings include payments for prior periods totaling $538.</p>
 
-<p>BMI Statements: 4Q&nbsp;2023, 1Q 2024, 2Q 2024, &amp; 3Q 2024<br />
-ASCAP Statements: 1Q 2024 (Domestic), 2Q 2024, 3Q 2024, 4Q 2024, 1Q 2025 (International)</p>",2025-03-17T17:39:50.377464Z,"<p>Simple Plan is a Canadian pop-punk band from Montreal, Quebec, formed in 1999, known for their energetic performances and relatable lyrics, they gained global recognition with hits like Jet Lag, released in 2011 as the second single from their fourth album, Get Your Heart On!. The song explores the struggles of long-distance relationships and was recorded in multiple versions, featuring Natasha Bedingfield (English), Marie-Mai (French), Kelly Cha (Chinese), and Tantri Syalindri (Indonesian).&nbsp;Jet Lag received positive reviews and it achieved commercial success, going double platinum in Australia and platinum in Canada.</p>",300.00,2025-02-27T18:00:51.558923Z,,0.1500,150063,pending,30_year,2055-03-19T06:14:12.645244Z,,,"Simple Plan, Better Than Ezra, Cody Simpson + more - Songwriting Royalties",73,9,6161.0,2025-03-20T13:18:35.598784Z,6089
-6094,True,2025-03-19T20:46:37.184434Z,2025-03-18T20:46:37.184434Z,104685,780779,33030,,,,,55700.0,,,,,False,,True,False,False,False,False,direct_listing,"**,***",,,15000.00,False,29,"<p><strong>Exchange Rates.</strong> Royalties for this asset are reported by Warner in GPB. To calculate royalty payments in U.S. Dollars (USD), Royalty Exchange applies the average historical exchange rate for the distribution month (via X-rates.com).</p>
+<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em></p>
+",2024-07-10T19:49:26.823593Z,"<p>&quot;New Ones (feat. NoCap)&quot; is a standout track from Quando Rando&rsquo;s 2019 album <em>From the Neighborhood to the Stage</em>. The song features a collaboration with rapper NoCap and explores themes of loyalty, loss, and the pursuit of success. &quot;Time For&quot; was released as part of his 2020 mixtape <em>Diary of a Lost Child</em>. It showcases Quando Rondo&#39;s introspective style and emotional depth. &quot;How&#39;d I Make It&quot; was released as a single in 2020. It highlights his unique talent for blending introspective lyrics with melodic rap.</p>
+",100.00,2024-07-08T17:00:16.914030Z,,0.1500,48701,filled,life_of_rights,,,https://dh22twu0ekfg6.cloudfront.net/media/orderbook/listings/5757/hq720_large.jpg,Quando Rondo - Producer Royalties,5,7,5458.0,2025-01-16T20:26:35.412743Z,5757
+5714,True,,,,729101,28000,200000.00,9.06,ltm,,251600.0,,2024-07-15T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"***,***",,,55000.00,False,19,"<p><strong>Earnings Note.</strong> The seller switched from TuneCore to STEM in Sept-2022.</p>
 
-<p>Future royalties will be paid to Royalty Exchange in GPB converted to USD upon receipt and then paid in USD to the winning investor. The receiving bank may increase the exchange rate by up to 2.5% as a transaction fee.</p>",2025-03-18T20:46:38.147633Z,"<p>Coldplay&#39;s tracks &quot;High Speed&quot; &amp;&nbsp;&quot;See You Soon&quot;&nbsp;are significant in their early discography, showcasing the band&#39;s foundational sound and artistic direction before their rise to global fame. These songs played a key role in shaping the band&#39;s identity and connecting with their growing fanbase.<br />
+<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.</em></p>",2024-07-09T18:57:09.757503Z,"<p>NoMBe is&nbsp;a German-born, Los Angeles-based artist, who features a&nbsp;unique blend of electronic, rock, R&amp;B, and pop music and has received critical acclaim for his&nbsp;genre-blending sound and heartfelt lyrics,&nbsp;garnering hundreds of&nbsp;millions of streams on platforms like Spotify and Apple Music. NoMBe&#39;s songs have been featured in TV shows such as &quot;Ballers&quot; and &quot;Dear White People,&quot; as well as in advertisements for&nbsp;Apple, contributing to his commercial success and cultural impact. His strategic release of singles and strong social media presence has helped build a dedicated fanbase, highlighting his originality and influence in modern music.</p>",1200.00,2024-06-17T17:28:56.367799Z,,0.1000,145958,filled,life_of_rights,,,,NoMBe - Sound Recording Royalties,11,3,5391.0,2025-01-16T20:26:35.412743Z,5714
+5697,True,,,,729147,28088,7875.30,5.25,ltm,,10100.0,,2024-08-16T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"*,***",,,5000.00,False,7,"<p><strong>Two Statement Sources.</strong> Royalties include payments from ASCAP for US-based performances and BMI for performances outside of the US. The winning bidder will receive payments from both BMI and ASCAP administered by Royalty Exchange.&nbsp;<br />
 <br />
-&quot;High Speed&quot; was originally released on Coldplay&rsquo;s 1999 <em data-end=""656"" data-start=""641"">The Blue Room</em> EP and then&nbsp;this same recording of the song was later included as the eighth track on their 2000 debut album <em data-end=""836"" data-start=""824"">Parachutes</em>, maintaining its atmospheric and introspective sound. This decision highlights the song&rsquo;s importance in their formative era, as it seamlessly fit within <em data-end=""1003"" data-start=""990"">Parachutes&rsquo;</em> melancholic and dreamy aesthetic.</p>
+<strong>Distribution Schedule:</strong> BMI and ASCAP both pay Quarterly. BMI&rsquo;s schedule is available <a href=""https://www.bmi.com/creators/royalty/how_we_pay_royalties"">here</a>. ASCAP&rsquo;s schedule is available <a href=""https://www.ascap.com/distributionschedule"">here</a>.&nbsp;</p>
 
-<p data-end=""2849"" data-start=""2579"">&quot;See You Soon&quot; was released on <em data-end=""2672"" data-start=""2657"">The Blue Room</em> EP in 1999. It remains a cherished track among early Coldplay fans for its stripped-down, acoustic intimacy.</p>",300.00,2025-03-06T18:01:30.189588Z,,0.1300,156365,pending,life_of_rights,,,,"Coldplay Tracks ""High Speed"" & ""See You Soon""",6,14,6192.0,2025-03-19T21:06:54.408780Z,6094
+<p><em><strong>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.</strong></em><br />
+&nbsp;</p>",2024-05-23T19:32:38.773772Z,"<p>Jenna Davis is a multifaceted American actress, singer, voice-over artist, and social media influencer. She gained widespread recognition for her role as the voice of the titular character in the 2022 horror film <em>M3GAN</em>. Her music often explores themes of personal growth, relationships, and self-empowerment. &quot;16&quot; was released on September 25, 2020 as a single. The song is a heartfelt reflection on the experiences and emotions associated with being 16 years old. &quot;Player&quot; is another single by Davis, released on May 30, 2021. The song narrates the experience of dealing with someone who manipulates and plays with others&#39; emotions.&nbsp;</p>
+",100.00,2024-05-23T17:00:22.552429Z,,0.1500,145011,filled,30_year,2054-07-09T18:54:28.836904Z,,,Jenna Davis + More Songwriter Royalties,9,2,5367.0,2025-01-16T20:26:35.412743Z,5697
+5758,True,,,,723512,27227,34000.00,10.79,ltm,,34100.0,,2024-07-15T06:00:00Z,,,False,,False,False,False,False,False,secondary_listing,"**,***",,,12177.76,False,2,"<p>Distribution Schedule: PRS regularly distributes royalties four times per year: April, July, October, and December. PRS may pay &quot;out of cycle&quot; distributions at various times of the year. These dates are estimated. As the winning bidder, you&#39;ll be entitled to all scheduled and &quot;out of cycle&quot; distributions.&nbsp;</p>
+
+<p>Payments are represented by quarter in the financial bar charts of this listing based on the below dates.</p>
+
+<table border=""1"" cellpadding=""1"" cellspacing=""1"" style=""width:100%;"">
+	<thead>
+		<tr>
+			<th scope=""col"">Quarter</th>
+			<th scope=""col"">Payment Month</th>
+			<th scope=""col"">Scheduled Distribution</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td>1Q</td>
+			<td>Jan - April</td>
+			<td>April</td>
+		</tr>
+		<tr>
+			<td>2Q</td>
+			<td>May - July</td>
+			<td>July</td>
+		</tr>
+		<tr>
+			<td>3Q</td>
+			<td>Aug - Oct</td>
+			<td>October</td>
+		</tr>
+		<tr>
+			<td>4Q</td>
+			<td>Nov - Dec</td>
+			<td>December</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p><strong>Exchange Rates. </strong>Royalties for this asset are reported by PRS in Great British Pounds (GBP). To calculate royalty payments in U.S. Dollars (USD), Royalty Exchange applies the average historical exchange rate for the distribution month (via X-rates.com).</p>
+
+<p>Future royalties will be paid to Royalty Exchange in GBP converted to USD upon receipt, and then paid in USD to the winning investor. The receiving bank may increase the exchange rate by up to 2.5% as a transaction fee.&nbsp;</p>
+
+<p><em><strong>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</strong></em></p>",2024-07-08T21:36:23.774720Z,"<p>This catalog showcases rock bands from across the globe, featuring the dynamic sounds of Japan&#39;s One Ok Rock, the American-based Sleeping With Sirens, Australia&#39;s 5 Seconds of Summer, and the UK&#39;s Lower Than Atlantis.&nbsp;<br />
+<br />
+One Ok Rock is a Japanese rock band formed in Tokyo in 2005. The included song, &quot;Eye of the Storm,&rdquo; released in 2019, is the title track from their ninth studio album of the same name. This album marked a significant shift in the band&#39;s sound, incorporating more pop and electronic elements compared to their previous rock-oriented works. The song itself exemplifies this change, featuring a blend of electronic beats, softer melodies, and emotive lyrics that reflect themes of resilience, hope, and pushing through difficult times.</p>
+
+<p>&quot;Leave It All Behind,&quot; performed by&nbsp;Sleeping With Sirens served as the lead single for their sixth studio album&nbsp;<em>How It Feels to Be Lost</em>, released on June 19, 2019. The song showcased a return to the band&#39;s post-hardcore roots, featuring heavier instrumentals and more aggressive vocals and received attention for its emotional depth, dealing with themes of facing and overcoming personal demons and struggles.</p>
+
+<p>Lower Than Atlantis is a British rock band from Watford, Hertfordshire, formed in 2007. They are known for their blend of rock, alternative rock, and punk influences, crafting a sound that resonated with a wide range of listeners. This catalog features songs from their entire discography which include the albums,&nbsp;<em>Far Q</em>,&nbsp;<em>World Record</em>,&nbsp;<em>Changing Tune</em>,&nbsp;<em>Lower Than Atlantis</em>&nbsp;and&nbsp;<em>Safe In Sound</em>. &quot;Get Over It,&rdquo; and &ldquo;Here We Go&rdquo; are both from their self-titled album, released in 2014. The album represented a pivotal moment for Lower Than Atlantis, showcasing a mix of hard-hitting rock anthems and melodic tunes that broadened their appeal.</p>
+",200.00,2024-07-02T21:30:44.713503Z,,0.0640,65534,filled,life_of_rights,,,https://dh22twu0ekfg6.cloudfront.net/media/orderbook/listings/5758/2016_09_11_11736_1473595180_large_large_large.jpg,"One Ok Rock, Lower Than Atlantis + More Rock Royalties",75,2,,2025-01-16T20:26:35.412743Z,5758
+5621,True,,,,731288,27180,68500.00,4.11,ltm,,,,,,,False,,False,False,False,False,False,secondary_listing,,,,60000.00,False,5,,2024-07-07T06:26:54.772430Z,,900.00,2024-04-05T15:20:23.816180Z,,0.0640,143508,filled,life_of_rights,,,,"Kane Brown's ""Grand"" - Songwriter Royalties",1,1,,2025-01-16T20:26:35.412743Z,5621
+5739,True,,,,730578,27762,88000.00,9.59,ltm,,104600.0,,2024-07-15T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"**,***",,,45000.00,False,5,"<p><strong>Earnings Data Note.</strong> Some of the earnings were reported by the payor without territory information and are labeled &ldquo;Unreported&rdquo; in the Financial Bar Chart below. Statement data is only available back to January 2022.</p>
+
+<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em><br />
+&nbsp;</p>",2024-07-05T01:26:51.496390Z,"<p>Jonathan Thulin is a notable figure in the contemporary Christian music scene. His work is celebrated for its unique blend of pop and electronic music, infused with deep lyrical content that often explores themes of faith, hope, and redemption. Throughout his career, Thulin has received critical acclaim and several nominations for prestigious awards. Notably, he was nominated for three We Love Christian Music Awards, including Best Male Artist, Best Collaboration for &quot;Dead Come to Life&quot; (featuring Charmaine), and Best Music Video for &quot;Bombs Away&quot; (featuring Rachael Lampa). This listing includes all the songs from Jonathan Thulin&#39;s most notable albums: <em>The Anatomy of a Heartflow&nbsp;</em>(2012),&nbsp;<em>The White Room&nbsp;</em>(2013), and&nbsp;<em>Science Fiction&nbsp;</em>(2015).</p>
+
+<p>&quot;Jekyll and Hyde&quot; was released in 2015 as part of Thulin&#39;s album <em>Science Fiction</em>. The song features New Zeeland Christian band, Rapture Ruckus and explores the internal struggle between conflicting parts of one&#39;s personality, much like the famous characters Dr. Jekyll and Mr. Hyde. &quot;Hat Trick,&rdquo; featuring Derek Minor, is another standout track from <em>Science Fiction</em>. Thulin&#39;s evocative lyrics are complemented by Derek Minor&#39;s rap, which adds depth to the narrative by highlighting the pressures and consequences of maintaining a facade. &quot;Architecture&quot; was released in 2013 as part of the album <em>The White Room</em>. It is a powerful and introspective track that explores themes of love, support, and resilience.&nbsp;</p>",500.00,2024-06-25T17:01:01.302201Z,,0.1500,62374,filled,life_of_rights,,,https://dh22twu0ekfg6.cloudfront.net/media/orderbook/listings/5739/17549_large.webp,Jonathan Thulin - Sound Recording Royalties,44,3,5430.0,2025-01-16T20:26:35.412743Z,5739
+5691,True,,,,730787,27802,,,,,28000.0,,2024-08-16T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"**,***",,,12500.00,False,7,,2024-07-02T16:36:36.174255Z,"<p>&#39;Dark Clouds&#39; by Rod Wave, a standout track from his 2020&nbsp;album &#39;Pray 4 Love,&#39; has significantly impacted the hip-hop and rap scene. The song, known for its heartfelt lyrics and Rod Wave&#39;s soulful delivery, has resonated deeply with fans, becoming a social media favorite.&nbsp;The track charted on the Billboard Hot 100 and contributed to the album&#39;s peak at number 2&nbsp;on the Billboard 200, achieving&nbsp;Certified Platinum by the RIAA.&nbsp;The song&#39;s success highlights the growing trend of melodic rap, blending singing and rapping, and&nbsp;has been prominently featured in music blogs, reviews, and social media, cementing Rod Wave&#39;s reputation as an impactful artist.</p>
+
+<p>&#39;Can&#39;t Take It (Ima Gangsta)&#39; by Mozzy, a standout track from his 2017&nbsp;album &#39;1 Up Top AHK,&#39; features a&nbsp;raw depiction of street life and gang culture.&nbsp;The song has garnered substantial streaming numbers and contributed to the album peaking at number 68&nbsp;on the Billboard 200.&nbsp;&#39;Can&#39;t Take It (Ima Gangsta)&#39; has been well-received by fans for its honesty and energy, featured in playlists, documentaries, and social media, cementing Mozzy&#39;s reputation as a compelling voice in hip-hop.</p>
+",200.00,2024-06-28T17:00:08.162418Z,,0.1250,41087,filled,life_of_rights,,,,"Rod Wave, Mozzy, Chris Brown + more - Songwriter Royalties",33,6,5447.0,2025-01-16T20:26:35.412743Z,5691
+5623,True,,,,730097,27187,15450.00,8.03,ltm,,13300.0,,,,,False,,False,False,False,False,False,secondary_listing,"**,***",,,14000.00,False,8,,2024-06-30T22:49:26.144430Z,,100.00,2024-04-05T18:23:27.857662Z,,0.0640,65534,filled,partial_30_year,2054-03-22T02:49:16.119110Z,,,"Tisoki, Aitana, Cami + More - Songwriting Royalties",101,6,,2025-01-16T20:26:35.412743Z,5623
+5749,True,,,,730740,27769,,,,,82100.0,,,,,False,,False,False,False,False,False,direct_listing,"**,***",,,25000.00,False,11,,2024-06-30T22:27:35.874971Z,"<p>&quot;Opp Spotter (featuring B-Lovee)&#39; by Kay Flock is a significant track within the New York drill music scene. It was released on September 6, 2020 and later as part of Kay Flock&#39;s mixtape,<em> The D.O.A. Tape</em> in 2021 and his full-length album <em>The D.O.A (Care Package)</em> in 2022. The song quickly gained traction for its raw and energetic style, characteristic of the drill genre. It showcases the collaboration between Kay Flock and B-Lovee, both emerging artists from the Bronx who have been pivotal in the resurgence of drill music in New York.</p>
+",700.00,2024-06-27T17:01:55.133442Z,,0.1500,145600,filled,life_of_rights,,,,Kay Flock’s “Opp Spotter” + More Publishing Royalties ,20,5,5441.0,2025-01-16T20:26:35.412743Z,5749
+4325,True,,,,729971,10301,30000.00,12.77,ltm,,25000.0,,,,,False,,False,False,False,False,False,secondary_listing,"**,***",,,20000.00,False,69,,2024-06-30T13:35:55.449753Z,,200.00,2021-11-02T16:43:14.983757Z,,0.0800,50333,filled,life_of_rights,,,,"R&B Songwriter Royalties: Case, Mary J. Blige, & Foxy Brown",58,25,,2025-01-16T20:26:35.412743Z,4325
+5667,True,,,,722714,26806,27000.00,7.58,ltm,,26800.0,,2024-10-01T06:00:00Z,,,False,,False,False,False,False,False,secondary_listing,"**,***",,,11100.00,False,8,<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em></p>,2024-06-30T03:04:09.491090Z,,200.00,2024-05-06T18:06:28.793750Z,,0.0640,65534,filled,life_of_rights,,,,Youngboy Never Broke Again - Producer Royalties,10,3,,2025-01-16T20:26:35.412743Z,5667
+5751,True,,,,730779,28775,40000.00,4.9,ltm,,43800.0,,2024-07-08T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"**,***",,,13000.00,False,4,"<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em></p>
+",2024-06-28T17:20:09.533688Z,"<p>&quot;Opp Spotter (featuring B-Lovee)&#39; by Kay Flock is a significant track within the New York drill music scene. It was released on September 6, 2020 and later as part of Kay Flock&#39;s mixtape,<em> The D.O.A. Tape</em> in 2021 and his full-length album <em>The D.O.A (Care Package)</em> in 2022. The song quickly gained traction for its raw and energetic style, characteristic of the drill genre. It showcases the collaboration between Kay Flock and B-Lovee, both emerging artists from the Bronx who have been pivotal in the resurgence of drill music in New York.</p>
+",500.00,2024-06-27T17:01:16.354708Z,,0.1500,145600,filled,30_year,2054-06-29T05:12:19.366100Z,,https://dh22twu0ekfg6.cloudfront.net/media/orderbook/listings/5751/artwork600x315_large.jpg,Kay Flock’s “Opp Spotter” + More Songwriter Royalties ,185,2,5446.0,2025-01-16T20:26:35.412743Z,5751
+5737,True,,,,729807,28637,76500.00,3.71,ltm,,104600.0,,2024-08-14T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"**,***",,,25000.00,False,4,<p><strong>Earnings note.&nbsp;</strong>Starting in 1Q2023 this publishing catalog started an administration agreement with the current administrator Admin MP. Royalties collected in 2023 include back-period streaming mechanicals. Detail on what portion of these royalties are for prior periods is unavailable.</p>,2024-06-28T18:11:31.574644Z,"<p>Simon Curtis is an American singer, songwriter, and actor who first gained attention in the Nickelodeon movie &quot;Spectacular!&quot; in 2009. Transitioning to music, he released his debut album &quot;8Bit Heart&quot; in 2010, followed by &quot;RA&quot; in 2011, &quot;Super 8-Bit Heart&quot; in 2016, and &quot;Angel Aura&quot; in 2023, all independently. His unique blend of electropop and dance-pop, characterized by video game sounds and themes, has earned him a dedicated following.</p>
+
+<p>Curtis&#39;s albums have performed well in niche markets, amassing significant streaming numbers and positive critical reception.&nbsp;Collaborating with indie producers, Curtis has maintained creative control over his music.&nbsp;His music&#39;s presence in online media and fan communities further amplifies his digital footprint, solidifying his role as a significant independent artist in contemporary pop and electronic music.</p>",1100.00,2024-06-26T17:00:33.053309Z,,0.1500,125831,filled,life_of_rights,,,,Independent Electro-Pop from Simon Curtis - Publishing Royalties,47,2,5433.0,2025-01-16T20:26:35.412743Z,5737
+5740,True,,,,730582,27693,51000.00,8.17,ltm,,63200.0,,2024-07-15T06:00:00Z,,,False,,True,False,False,False,False,direct_listing,"**,***",,,30000.00,False,4,"<p><strong>Earnings Data Note.</strong> Some of the earnings were reported by the payor without territory information and are labeled &ldquo;Unreported&rdquo; in the Financial Bar Chart below.&nbsp;Statement data is only available back to January 2022.</p>
+
+<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em></p>",2024-06-28T16:16:20.823579Z,"<p>Press Play is a dynamic Christian pop and rock band formed in 2008. Their music is a blend of pop, rock, and dance, featuring uplifting and faith-driven lyrics. This listing includes all the songs from the band&rsquo;s four major albums: <em>Life Is Beautiful</em> (2009), <em>NY2LA</em> (2010), <em>World Anthem</em> (2011), and<em> #LITO </em>(2013). These albums were well-received, with <em>Life Is Beautifu</em>l peaking at No. 2 on the Billboard Christian Albums chart and No. 45 on the Billboard 200 chart, showcasing their commercial success. <em>NY2LA</em> followed, reaching No. 3 on the Christian Albums chart.</p>
+
+<p><span style=""display: none;"">&nbsp;</span>&ldquo;#LITO,&quot; which stands for &quot;Love In The Open,&quot; is the title track of their album of the same name. The song has been featured in various media, including the 2014 film <em>Project Almanac</em>.&nbsp;&quot;NY2LA,&quot; another of their standout tracks, combines energetic beats with a rap feature from Tyler James Williams, highlighting their knack for cross-genre collaborations.</p>",400.00,2024-06-25T17:03:26.751474Z,,0.1500,144563,filled,life_of_rights,,,https://dh22twu0ekfg6.cloudfront.net/media/orderbook/listings/5740/2914f06e9ed428f2bf261dd3ddfeb7969d3e6cbe_large.jpg,Press Play - Sound Recording Royalties,54,2,5437.0,2025-01-16T20:26:35.412743Z,5740
+5678,True,,,,729153,27533,54000.00,10.56,ltm,,51400.0,,2024-09-27T06:00:00Z,,,False,,False,False,False,False,False,direct_listing,"**,***",,,19000.00,False,37,"<p><strong>Earnings note. </strong>Lifetime earnings for this catalog prior to 2H-2018 totaled $162,682.33.</p>
+
+<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em></p>",2024-06-23T18:17:44.478893Z,"<p>&quot;Purpose&quot;&nbsp;marked a significant shift in his musical style for Bieber, incorporating elements of EDM, R&amp;B, and dance-pop and received critical acclaim, debuting&nbsp;at No. 1 on the Billboard 200.&nbsp;&quot;Purpose&quot; earned numerous awards, including a Grammy for Best Dance Recording and an AMA for Favorite Pop/Rock Album. The album&#39;s themes of redemption, love, and personal growth resonated widely, with tracks amassing billions of streams on Spotify and YouTube. &quot;Purpose&quot; remains a pivotal work in Bieber&#39;s career, showcasing his evolution as an artist and leaving a lasting impact on the music industry.</p>",300.00,2024-06-18T17:01:46.410319Z,,0.1500,140182,pending,life_of_rights,,,,Producer Royalties from Justin Bieber Recordings,5,18,5348.0,2025-01-16T20:26:35.412743Z,5678
+5671,True,,,,724142,26960,124500.00,7.12,ltm,,189200.0,,2024-08-15T06:00:00Z,,,False,,True,False,False,False,False,direct_listing,"***,***",,,85000.00,False,50,<p><em>This catalog will not be automatically added to the Secondary Market of The Exchange. The winning bidder can contact Royalty Exchange to relist.&nbsp;</em></p>,2024-06-18T19:00:56.689706Z,"<p>Urban Rescue, an American Christian music group based in Los Angeles and active since 2009, specializes in a blend of worship, Christian pop, Christian EDM, and electropop. Their key commercial achievement is the 2016 studio album &quot;Wild Heart,&quot;&nbsp;which topped the US &amp; UK Christian Music charts.&nbsp;</p>
+
+<p>Jesus Culture, founded in 1999,&nbsp;is a prominent Christian revivalist movement and worship band originating from Bethel Church in Redding, CA. Known for its passionate contemporary Christian music blending rock and pop elements, the group has released numerous influential albums and hosts&nbsp;global conferences, significantly impacting the modern worship movement.</p>
+
+<p>Chris McClarney is a Christian worship leader and songwriter from Nashville, Tennessee, known for his soulful voice and impactful worship music.&nbsp;McClarney began his career leading worship in his local church and has since released several albums, including &quot;Everything and Nothing Less,&quot; recorded live at the 2015 Jesus Culture Sacramento conference.&nbsp;</p>",900.00,2024-05-13T17:00:24.340445Z,,0.1400,144307,filled,life_of_rights,,,,"Urban Rescue, Jesus Culture, Chris McClarney + More - Publishing Royalties",160,9,5324.0,2025-01-16T20:26:35.412743Z,5671
+5608,True,,,,729632,26982,87500.00,6.56,ltm,,,,,,,False,,True,False,False,False,False,secondary_listing,,,,5000.00,False,5,,2024-06-19T14:08:48.682835Z,,700.00,2024-03-27T18:17:03.284741Z,,0.0800,72474,filled,life_of_rights,,,,"NCT 127's hit ""Lemonade"" - Songwriting Royalties",2,2,,2025-01-16T20:26:35.412743Z,5608

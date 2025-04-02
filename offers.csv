@@ -408,3 +408,16 @@ Listing ID,timestamp,amount,multiple,state,kind,bidder_index
 5408,2024-01-05T03:53:19.914460Z,,5.14,fail_offer_timeout,seller_counteroffer,2
 5408,2024-01-05T03:12:52.938812Z,,2.84,fail_offer_timeout,bid_offer,2
 5408,2023-12-10T14:19:30.387022Z,,1.94,fail_offer_timeout,bid_offer,1
+5709,2024-06-18T16:25:28.533012Z,,6.80,filled,seller_counteroffer,1
+5709,2024-06-18T16:25:37.138099Z,,6.80,fail_offer_rejected,seller_counteroffer,2
+5709,2024-06-18T16:19:22.352717Z,,6.71,fail_offer_rejected,bid_offer,2
+5709,2024-06-18T16:18:44.263275Z,,6.66,fail_offer_rejected,bid_offer,1
+5709,2024-06-18T16:16:07.602116Z,,6.80,fail_offer_rejected_by_increase,seller_counteroffer,2
+5709,2024-06-18T16:15:47.641115Z,,6.80,fail_offer_rejected,seller_counteroffer,3
+5709,2024-06-18T16:13:07.691381Z,,6.33,fail_offer_rejected,bid_offer,3
+5709,2024-06-18T16:07:30.252167Z,,6.28,fail_offer_increased,buyer_counteroffer,2
+5709,2024-06-18T15:59:43.301494Z,,6.94,fail_counteroffer_made,seller_counteroffer,2
+5709,2024-06-17T21:51:39.464930Z,,6.10,fail_counteroffer_made,bid_offer,2
+5709,2024-06-17T21:48:46.922960Z,,6.09,fail_offer_increased,bid_offer,3
+5709,2024-06-17T18:25:52.098456Z,,5.72,fail_offer_increased,bid_offer,2
+5709,2024-06-17T17:11:05.571580Z,,5.60,fail_offer_increased,bid_offer,1

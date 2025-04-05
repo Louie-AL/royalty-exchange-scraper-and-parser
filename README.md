@@ -20,7 +20,7 @@ royalty_scraper/
 └── README.md                # This file
 ```
 
-## ⚙️ What It Does
+## Functionality
 
 For each asset ID:
 - Scrapes the listing page (HTML)
@@ -31,7 +31,7 @@ For each asset ID:
   - Monthly earnings and income type breakdowns (if available)
 - Outputs results to CSV files
 
-## 📦 Features
+## Features
 
 - Modular code for scraping, parsing, and running
 - Parses both HTML and JSON data
@@ -39,7 +39,7 @@ For each asset ID:
 - Can scale to many asset IDs
 - Custom input via `asset_ids.csv`
 
-## 🧠 Skills Demonstrated
+## Skills?
 
 - Web scraping (Selenium + Requests)
 - API reverse engineering via browser dev tools
@@ -49,7 +49,7 @@ For each asset ID:
 - Modular Python scripting
 - Logging and basic testing structure
 
-## 🗃️ Input Format (asset_ids.csv)
+## Input Format (asset_ids.csv)
 
 If you want to specify your own list of assets, create a CSV file like:
 
@@ -62,7 +62,7 @@ asset_id
 
 Place it in the root folder. The program will automatically read from it.
 
-## 🚀 Running the Project
+## Running the Project
 
 From the terminal:
 
@@ -75,7 +75,7 @@ It will:
 - Collect data
 - Save outputs in CSV files
 
-## 📌 Notes
+## Notes
 
 - Make sure your environment has `selenium`, `bs4`, `pandas`, and `requests` installed.
 - Requires Microsoft Edge + Edge WebDriver.

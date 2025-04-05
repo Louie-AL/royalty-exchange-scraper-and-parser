@@ -8,6 +8,7 @@ This project is a modular and scalable web scraper designed to collect and organ
 royalty_scraper/
 ├── main.py                  # Orchestrates the scraping process
 ├── parser.py                # Parses HTML and JSON into structured data
+├── IDonly_scraperandparser.ipynb  # Scrapes the IDs of the open listings site
 ├── scraper.py               # Fetches HTML pages and JSON from API
 ├── utils.py                 # Logging and helper utilities
 ├── config.py                # Output file paths and default asset IDs
@@ -20,7 +21,11 @@ royalty_scraper/
 └── README.md                # This file
 ```
 
+<<<<<<< HEAD
+## What It Does
+=======
 ## Functionality
+>>>>>>> 0e1dac7784bba0e7e8904655e258e3a8006944fc
 
 For each asset ID:
 - Scrapes the listing page (HTML)
@@ -31,6 +36,20 @@ For each asset ID:
   - Monthly earnings and income type breakdowns (if available)
 - Outputs results to CSV files
 
+<<<<<<< HEAD
+## Listing ID Scraper (New Feature)
+
+A new standalone notebook (`id_parser.ipynb`) dynamically scrapes all open Royalty Exchange listings and extracts their `Listing ID`s using Selenium.
+
+- Dynamically detects number of pages in real-time (no hardcoding)
+- Scrapes all pages of open listings
+- Uses regex to extract numeric IDs
+- Saves results to a timestamped CSV
+
+This component is useful for regularly refreshing the set of active asset IDs to be used as input to the main scraper.
+
+=======
+>>>>>>> 0e1dac7784bba0e7e8904655e258e3a8006944fc
 ## Features
 
 - Modular code for scraping, parsing, and running
@@ -38,13 +57,19 @@ For each asset ID:
 - Error handling and logging for traceability
 - Can scale to many asset IDs
 - Custom input via `asset_ids.csv`
+- Listing ID discovery via Selenium-powered listing parser
 
+<<<<<<< HEAD
+## Skills Demonstrated
+=======
 ## Skills?
+>>>>>>> 0e1dac7784bba0e7e8904655e258e3a8006944fc
 
 - Web scraping (Selenium + Requests)
 - API reverse engineering via browser dev tools
 - HTML parsing with BeautifulSoup
 - JSON extraction and transformation
+- Dynamic element detection
 - Data wrangling with Pandas
 - Modular Python scripting
 - Logging and basic testing structure

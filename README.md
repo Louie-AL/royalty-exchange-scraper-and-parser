@@ -8,6 +8,7 @@ This project is a modular and scalable web scraper designed to collect and organ
 royalty_scraper/
 ├── main.py                  # Orchestrates the scraping process
 ├── parser.py                # Parses HTML and JSON into structured data
+├── IDonly_scraperandparser.ipynb  # Scrapes the IDs of the open listings site
 ├── scraper.py               # Fetches HTML pages and JSON from API
 ├── utils.py                 # Logging and helper utilities
 ├── config.py                # Output file paths and default asset IDs
@@ -20,7 +21,7 @@ royalty_scraper/
 └── README.md                # This file
 ```
 
-## ⚙️ What It Does
+## What It Does
 
 For each asset ID:
 - Scrapes the listing page (HTML)
@@ -31,25 +32,38 @@ For each asset ID:
   - Monthly earnings and income type breakdowns (if available)
 - Outputs results to CSV files
 
-## 📦 Features
+## Listing ID Scraper (New Feature)
+
+A new standalone notebook (`id_parser.ipynb`) dynamically scrapes all open Royalty Exchange listings and extracts their `Listing ID`s using Selenium.
+
+- Dynamically detects number of pages in real-time (no hardcoding)
+- Scrapes all pages of open listings
+- Uses regex to extract numeric IDs
+- Saves results to a timestamped CSV
+
+This component is useful for regularly refreshing the set of active asset IDs to be used as input to the main scraper.
+
+## Features
 
 - Modular code for scraping, parsing, and running
 - Parses both HTML and JSON data
 - Error handling and logging for traceability
 - Can scale to many asset IDs
 - Custom input via `asset_ids.csv`
+- Listing ID discovery via Selenium-powered listing parser
 
-## 🧠 Skills Demonstrated
+## Skills Demonstrated
 
 - Web scraping (Selenium + Requests)
 - API reverse engineering via browser dev tools
 - HTML parsing with BeautifulSoup
 - JSON extraction and transformation
+- Dynamic element detection
 - Data wrangling with Pandas
 - Modular Python scripting
 - Logging and basic testing structure
 
-## 🗃️ Input Format (asset_ids.csv)
+## Input Format (asset_ids.csv)
 
 If you want to specify your own list of assets, create a CSV file like:
 
@@ -62,7 +76,7 @@ asset_id
 
 Place it in the root folder. The program will automatically read from it.
 
-## 🚀 Running the Project
+## Running the Project
 
 From the terminal:
 
@@ -75,7 +89,7 @@ It will:
 - Collect data
 - Save outputs in CSV files
 
-## 📌 Notes
+## Notes
 
 - Make sure your environment has `selenium`, `bs4`, `pandas`, and `requests` installed.
 - Requires Microsoft Edge + Edge WebDriver.

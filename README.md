@@ -21,11 +21,8 @@ royalty_scraper/
 └── README.md                # This file
 ```
 
-<<<<<<< HEAD
-## What It Does
-=======
+
 ## Functionality
->>>>>>> 0e1dac7784bba0e7e8904655e258e3a8006944fc
 
 For each asset ID:
 - Scrapes the listing page (HTML)
@@ -36,7 +33,6 @@ For each asset ID:
   - Monthly earnings and income type breakdowns (if available)
 - Outputs results to CSV files
 
-<<<<<<< HEAD
 ## Listing ID Scraper (New Feature)
 
 A new standalone notebook (`id_parser.ipynb`) dynamically scrapes all open Royalty Exchange listings and extracts their `Listing ID`s using Selenium.
@@ -49,7 +45,6 @@ A new standalone notebook (`id_parser.ipynb`) dynamically scrapes all open Royal
 This component is useful for regularly refreshing the set of active asset IDs to be used as input to the main scraper.
 
 =======
->>>>>>> 0e1dac7784bba0e7e8904655e258e3a8006944fc
 ## Features
 
 - Modular code for scraping, parsing, and running
@@ -59,11 +54,7 @@ This component is useful for regularly refreshing the set of active asset IDs to
 - Custom input via `asset_ids.csv`
 - Listing ID discovery via Selenium-powered listing parser
 
-<<<<<<< HEAD
-## Skills Demonstrated
-=======
 ## Skills?
->>>>>>> 0e1dac7784bba0e7e8904655e258e3a8006944fc
 
 - Web scraping (Selenium + Requests)
 - API reverse engineering via browser dev tools

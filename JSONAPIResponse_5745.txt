@@ -1,0 +1,1069 @@
+{
+    "assets": {
+        "28755": {
+            "id": 28755,
+            "mismatch_notice": null,
+            "resale_info": {
+                "id": 1957,
+                "currency": "USD",
+                "purchased_amount": "6677.00",
+                "purchased_date": "2024-06-18T14:38:17.532963Z",
+                "purchased_term_expiration_date": "2029-03-15T00:00:00Z"
+            },
+            "royalty_payors": [
+                {
+                    "name": "ascap",
+                    "description": "<p><a href=\"https://www.ascap.com/about-us\" target=\"_blank\">American Society of Composers, Authors and Publishers (ASCAP)</a> is one of four United States performing rights organizations, along with BMI, SESAC &amp; Global Music Rights. It collects license fees from music users on behalf of songwriters, composers, and music publishers and distributes them as royalties to those members whose works have been performed.<a href=\"https://www.ascap.com/help/royalties-and-payment/payment/distribution\" target=\"_blank\"> For more information on ASCAP&rsquo;s distribution schedule</a>.</p>",
+                    "display_name": "ASCAP",
+                    "kind": "pro"
+                }
+            ],
+            "sale_date": null,
+            "sale_history": [
+                {
+                    "id": 2783,
+                    "kind": "secondary_listing",
+                    "date": "2024-06-18T14:38:17.532963Z",
+                    "title": "Songwriter Royalties From Popular Angel Taylor Tracks",
+                    "amount": 6677.0,
+                    "multiple": 3.45,
+                    "state": "filled",
+                    "url": "https://auctions.royaltyexchange.com/orderbook/asset-detail/2783",
+                    "currency": "USD"
+                },
+                {
+                    "id": 432,
+                    "amount": 8545.07,
+                    "date": "2019-03-11T22:16:05.573104Z",
+                    "multiple": 4.35,
+                    "kind": "instant_offer",
+                    "url": null,
+                    "currency": "USD"
+                }
+            ]
+        }
+    },
+    "listing": {
+        "id": 5745,
+        "accept_final_offers": true,
+        "accepting_final_offers_end_at": null,
+        "accepting_final_offers_start_at": null,
+        "accepting_final_offers_initial_offer": null,
+        "active_listing_valuation_id": 791143,
+        "asset": 28755,
+        "buy_now_price": "10000.00",
+        "buy_now_price_history": [
+            {
+                "created_at": "2024-06-26T14:49:18.786739Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2024-06-26T14:49:57.964873Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2024-06-26T15:21:52.592229Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2024-07-02T14:40:34.863679Z",
+                "buy_now_price": "10000.00"
+            },
+            {
+                "created_at": "2024-07-02T14:40:57.877734Z",
+                "buy_now_price": "10000.00"
+            }
+        ],
+        "buy_now_price_multiple": 7.22,
+        "buy_now_price_multiple_source": "ltm",
+        "custom_earnings_by_region_chart": "",
+        "deal": null,
+        "default_buy_now_price": 3200,
+        "display_state": {
+            "message": "Open To Offers",
+            "available": true
+        },
+        "earnings_file": null,
+        "expiration": null,
+        "featured_source": null,
+        "generic_financials": null,
+        "hidden": false,
+        "included_rights": null,
+        "is_eligible_to_withdraw_offers_placed_before_update": true,
+        "is_featured": false,
+        "is_in_feature_queue": false,
+        "is_owner": false,
+        "is_track_list_hidden": false,
+        "kind": "secondary_listing",
+        "marketplace_median": "*,***",
+        "marketplace_median_multiplier": null,
+        "marketplace_median_source": null,
+        "media_urls": [
+            "https://www.youtube.com/watch?v=Og5ovhUbw3g",
+            "https://www.youtube.com/watch?v=xKN-2YEYb-4"
+        ],
+        "minimum_price": "8000.00",
+        "offers": [],
+        "offers_awaiting_acceptance": false,
+        "offers_received_count": 0,
+        "other_info": "<p>Previous transaction: Order Book offer closed on 3/15/2019 at $8,545.07 (4.35x).</p>",
+        "owner_last_active_date": "2024-07-02T14:40:34.283267Z",
+        "performing_artist_analysis": "",
+        "proxy_increment_amount": "100.00",
+        "published_date": "2024-06-26T14:49:57.711203Z",
+        "requested_buy_now_price": null,
+        "royx_take": "0.0800",
+        "seller_id": 50333,
+        "state": "open",
+        "tags": [
+            "ASCAP",
+            "Angel Taylor",
+            "Mako",
+            "Diverse Earnings",
+            "Arty"
+        ],
+        "term": "partial_10_year",
+        "term_expiration": "2029-03-15T00:00:00Z",
+        "term_return_amount": null,
+        "thumbnail_large": null,
+        "title": "Songwriter Royalties From Popular Angel Taylor Tracks",
+        "track_count": 13,
+        "unique_bidder_count": 0,
+        "valuation": {
+            "id": 791143,
+            "distribution_frequency": 4,
+            "dollar_age": 14.17,
+            "earnings_by_region": [
+                [
+                    "2009-10-01",
+                    {
+                        "domestic": 1095.045,
+                        "intl": 0.0,
+                        "unreported": 0.0,
+                        "total": 1095.045
+                    }
+                ],
+                [
+                    "2010-01-01",
+                    {
+                        "domestic": 980.7075,
+                        "intl": 0.0,
+                        "unreported": 0.0,
+                        "total": 980.7075
+                    }
+                ],
+                [
+                    "2010-04-01",
+                    {
+                        "domestic": 698.265,
+                        "intl": 1.6500000000000001,
+                        "unreported": 0.0,
+                        "total": 699.915
+                    }
+                ],
+                [
+                    "2010-07-01",
+                    {
+                        "domestic": 548.9925,
+                        "intl": 12.66,
+                        "unreported": 0.0,
+                        "total": 561.6525
+                    }
+                ],
+                [
+                    "2010-10-01",
+                    {
+                        "domestic": 3271.1175,
+                        "intl": 98.46,
+                        "unreported": 0.0,
+                        "total": 3369.5775
+                    }
+                ],
+                [
+                    "2011-01-01",
+                    {
+                        "domestic": 1878.7459199999998,
+                        "intl": 301.77,
+                        "unreported": 0.0,
+                        "total": 2180.51592
+                    }
+                ],
+                [
+                    "2011-04-01",
+                    {
+                        "domestic": 359.97798,
+                        "intl": 81.5475,
+                        "unreported": 0.0,
+                        "total": 441.52548
+                    }
+                ],
+                [
+                    "2011-07-01",
+                    {
+                        "domestic": 102.46172250000001,
+                        "intl": 136.59,
+                        "unreported": 0.0,
+                        "total": 239.0517225
+                    }
+                ],
+                [
+                    "2011-10-01",
+                    {
+                        "domestic": 391.667685,
+                        "intl": 212.4675,
+                        "unreported": 0.0,
+                        "total": 604.135185
+                    }
+                ],
+                [
+                    "2012-01-01",
+                    {
+                        "domestic": 131.816895,
+                        "intl": 48.405,
+                        "unreported": 0.0,
+                        "total": 180.221895
+                    }
+                ],
+                [
+                    "2012-04-01",
+                    {
+                        "domestic": 144.41201999999998,
+                        "intl": 85.6575,
+                        "unreported": 0.0,
+                        "total": 230.06951999999998
+                    }
+                ],
+                [
+                    "2012-07-01",
+                    {
+                        "domestic": 26.4622125,
+                        "intl": 35.8275,
+                        "unreported": 0.0,
+                        "total": 62.2897125
+                    }
+                ],
+                [
+                    "2012-10-01",
+                    {
+                        "domestic": 11.94558,
+                        "intl": 104.3325,
+                        "unreported": 0.0,
+                        "total": 116.27808
+                    }
+                ],
+                [
+                    "2013-01-01",
+                    {
+                        "domestic": 8.186399999999999,
+                        "intl": 63.5625,
+                        "unreported": 0.0,
+                        "total": 71.7489
+                    }
+                ],
+                [
+                    "2013-04-01",
+                    {
+                        "domestic": 428.385555,
+                        "intl": 96.93,
+                        "unreported": 0.0,
+                        "total": 525.315555
+                    }
+                ],
+                [
+                    "2013-07-01",
+                    {
+                        "domestic": 86.27946,
+                        "intl": 49.2225,
+                        "unreported": 0.0,
+                        "total": 135.50196
+                    }
+                ],
+                [
+                    "2013-10-01",
+                    {
+                        "domestic": 82.61328,
+                        "intl": 98.475,
+                        "unreported": 0.0,
+                        "total": 181.08828
+                    }
+                ],
+                [
+                    "2014-01-01",
+                    {
+                        "domestic": 100.72194,
+                        "intl": 71.3025,
+                        "unreported": 0.0,
+                        "total": 172.02444
+                    }
+                ],
+                [
+                    "2014-04-01",
+                    {
+                        "domestic": 112.33781249999998,
+                        "intl": 37.537499999999994,
+                        "unreported": 0.0,
+                        "total": 149.87531249999998
+                    }
+                ],
+                [
+                    "2014-07-01",
+                    {
+                        "domestic": 93.6433275,
+                        "intl": 66.57000000000001,
+                        "unreported": 0.0,
+                        "total": 160.2133275
+                    }
+                ],
+                [
+                    "2014-10-01",
+                    {
+                        "domestic": 106.320105,
+                        "intl": 70.24499999999999,
+                        "unreported": 0.0,
+                        "total": 176.565105
+                    }
+                ],
+                [
+                    "2015-01-01",
+                    {
+                        "domestic": 782.1710400000001,
+                        "intl": 94.125,
+                        "unreported": 0.0,
+                        "total": 876.2960400000001
+                    }
+                ],
+                [
+                    "2015-04-01",
+                    {
+                        "domestic": 654.8438325,
+                        "intl": 153.6975,
+                        "unreported": 0.0,
+                        "total": 808.5413325
+                    }
+                ],
+                [
+                    "2015-07-01",
+                    {
+                        "domestic": 437.680245,
+                        "intl": 104.865,
+                        "unreported": 0.0,
+                        "total": 542.545245
+                    }
+                ],
+                [
+                    "2015-10-01",
+                    {
+                        "domestic": 537.5662275,
+                        "intl": 243.1875,
+                        "unreported": 0.0,
+                        "total": 780.7537275
+                    }
+                ],
+                [
+                    "2016-01-01",
+                    {
+                        "domestic": 409.59360749999996,
+                        "intl": 255.14999999999998,
+                        "unreported": 0.0,
+                        "total": 664.7436074999999
+                    }
+                ],
+                [
+                    "2016-04-01",
+                    {
+                        "domestic": 439.093365,
+                        "intl": 214.1775,
+                        "unreported": 0.0,
+                        "total": 653.270865
+                    }
+                ],
+                [
+                    "2016-07-01",
+                    {
+                        "domestic": 645.66066,
+                        "intl": 184.755,
+                        "unreported": 0.0,
+                        "total": 830.41566
+                    }
+                ],
+                [
+                    "2016-10-01",
+                    {
+                        "domestic": 473.26854749999995,
+                        "intl": 140.94,
+                        "unreported": 0.0,
+                        "total": 614.2085475
+                    }
+                ],
+                [
+                    "2017-01-01",
+                    {
+                        "domestic": 830.0570175,
+                        "intl": 263.6925,
+                        "unreported": 0.0,
+                        "total": 1093.7495175
+                    }
+                ],
+                [
+                    "2017-04-01",
+                    {
+                        "domestic": 529.19307,
+                        "intl": 127.6575,
+                        "unreported": 0.0,
+                        "total": 656.85057
+                    }
+                ],
+                [
+                    "2017-07-01",
+                    {
+                        "domestic": 512.305605,
+                        "intl": 146.7,
+                        "unreported": 0.0,
+                        "total": 659.0056050000001
+                    }
+                ],
+                [
+                    "2017-10-01",
+                    {
+                        "domestic": 377.762895,
+                        "intl": 179.085,
+                        "unreported": 0.0,
+                        "total": 556.847895
+                    }
+                ],
+                [
+                    "2018-01-01",
+                    {
+                        "domestic": 402.1898175,
+                        "intl": 67.6125,
+                        "unreported": 0.0,
+                        "total": 469.8023175
+                    }
+                ],
+                [
+                    "2018-04-01",
+                    {
+                        "domestic": 450.1142775,
+                        "intl": 117.9075,
+                        "unreported": 0.0,
+                        "total": 568.0217775
+                    }
+                ],
+                [
+                    "2018-07-01",
+                    {
+                        "domestic": 374.715015,
+                        "intl": 135.63075,
+                        "unreported": 0.0,
+                        "total": 510.34576500000003
+                    }
+                ],
+                [
+                    "2018-10-01",
+                    {
+                        "domestic": 330.18932250000006,
+                        "intl": 103.89975,
+                        "unreported": 0.0,
+                        "total": 434.08907250000004
+                    }
+                ],
+                [
+                    "2019-01-01",
+                    {
+                        "domestic": 342.05239500000005,
+                        "intl": 49.73775,
+                        "unreported": 0.0,
+                        "total": 391.79014500000005
+                    }
+                ],
+                [
+                    "2019-04-01",
+                    {
+                        "domestic": 339.8083875,
+                        "intl": 209.81550000000001,
+                        "unreported": 0.0,
+                        "total": 549.6238875
+                    }
+                ],
+                [
+                    "2019-07-01",
+                    {
+                        "domestic": 497.4183525,
+                        "intl": 62.39325,
+                        "unreported": 0.0,
+                        "total": 559.8116025
+                    }
+                ],
+                [
+                    "2019-10-01",
+                    {
+                        "domestic": 458.1050475,
+                        "intl": 123.6555,
+                        "unreported": 0.0,
+                        "total": 581.7605475
+                    }
+                ],
+                [
+                    "2020-01-01",
+                    {
+                        "domestic": 492.5833125,
+                        "intl": 83.48175,
+                        "unreported": 0.0,
+                        "total": 576.0650625
+                    }
+                ],
+                [
+                    "2020-04-01",
+                    {
+                        "domestic": 246.59462249999999,
+                        "intl": 67.94325,
+                        "unreported": 0.0,
+                        "total": 314.5378725
+                    }
+                ],
+                [
+                    "2020-07-01",
+                    {
+                        "domestic": 217.733265,
+                        "intl": 63.375,
+                        "unreported": 0.0,
+                        "total": 281.108265
+                    }
+                ],
+                [
+                    "2020-10-01",
+                    {
+                        "domestic": 162.61266750000001,
+                        "intl": 76.6695,
+                        "unreported": 0.0,
+                        "total": 239.2821675
+                    }
+                ],
+                [
+                    "2021-01-01",
+                    {
+                        "domestic": 212.4979125,
+                        "intl": 775.3102499999999,
+                        "unreported": 0.0,
+                        "total": 987.8081624999999
+                    }
+                ],
+                [
+                    "2021-04-01",
+                    {
+                        "domestic": 249.878835,
+                        "intl": 84.31575,
+                        "unreported": 0.0,
+                        "total": 334.194585
+                    }
+                ],
+                [
+                    "2021-07-01",
+                    {
+                        "domestic": 245.3592,
+                        "intl": 89.11575,
+                        "unreported": 0.0,
+                        "total": 334.47495
+                    }
+                ],
+                [
+                    "2021-10-01",
+                    {
+                        "domestic": 146.475045,
+                        "intl": 69.36149999999999,
+                        "unreported": 0.0,
+                        "total": 215.836545
+                    }
+                ],
+                [
+                    "2022-01-01",
+                    {
+                        "domestic": 120.34281,
+                        "intl": 143.592,
+                        "unreported": 0.0,
+                        "total": 263.93480999999997
+                    }
+                ],
+                [
+                    "2022-04-01",
+                    {
+                        "domestic": 103.6253025,
+                        "intl": 100.18125,
+                        "unreported": 0.0,
+                        "total": 203.8065525
+                    }
+                ],
+                [
+                    "2022-07-01",
+                    {
+                        "domestic": 273.378765,
+                        "intl": 75.63674999999999,
+                        "unreported": 0.0,
+                        "total": 349.015515
+                    }
+                ],
+                [
+                    "2022-10-01",
+                    {
+                        "domestic": 447.6614775,
+                        "intl": 84.08324999999999,
+                        "unreported": 0.0,
+                        "total": 531.7447275
+                    }
+                ],
+                [
+                    "2023-01-01",
+                    {
+                        "domestic": 209.5821375,
+                        "intl": 54.88125,
+                        "unreported": 0.0,
+                        "total": 264.4633875
+                    }
+                ],
+                [
+                    "2023-04-01",
+                    {
+                        "domestic": 331.8124875,
+                        "intl": 59.47425,
+                        "unreported": 0.0,
+                        "total": 391.2867375
+                    }
+                ],
+                [
+                    "2023-07-01",
+                    {
+                        "domestic": 483.75177,
+                        "intl": 117.4485,
+                        "unreported": 0.0,
+                        "total": 601.20027
+                    }
+                ],
+                [
+                    "2023-10-01",
+                    {
+                        "domestic": 470.26956,
+                        "intl": 125.62125,
+                        "unreported": 0.0,
+                        "total": 595.89081
+                    }
+                ],
+                [
+                    "2024-01-01",
+                    {
+                        "domestic": 251.78235,
+                        "intl": 83.868,
+                        "unreported": 0.0,
+                        "total": 335.65035
+                    }
+                ],
+                [
+                    "2024-04-01",
+                    {
+                        "domestic": 237.642675,
+                        "intl": 69.49725000000001,
+                        "unreported": 0.0,
+                        "total": 307.139925
+                    }
+                ],
+                [
+                    "2024-07-01",
+                    {
+                        "domestic": 264.759705,
+                        "intl": 46.848,
+                        "unreported": 0.0,
+                        "total": 311.607705
+                    }
+                ],
+                [
+                    "2024-10-01",
+                    {
+                        "domestic": 407.22533250000004,
+                        "intl": 73.377,
+                        "unreported": 0.0,
+                        "total": 480.60233250000005
+                    }
+                ],
+                [
+                    "2025-01-01",
+                    {
+                        "domestic": 213.191565,
+                        "intl": 72.32625,
+                        "unreported": 0.0,
+                        "total": 285.517815
+                    }
+                ]
+            ],
+            "first_earnings_date": "2009-10-01T06:00:00Z",
+            "lifetime_amount": 33340.96,
+            "ltm": 1384.87,
+            "regions": [
+                "all"
+            ],
+            "statistics_last_updated": "2025-04-14T22:14:16.882463Z",
+            "three_years_average": 1552.64,
+            "top_earnings_by_year": {
+                "top_songs": [
+                    {
+                        "year": "year_1",
+                        "LIKE YOU DO": 217.56,
+                        "BEAM": 1520.02,
+                        "UP ALL NIGHT": 54.09,
+                        "DON'T FORGET ME IN TIME": 2.39,
+                        "CAN'T STOP THIS FEELING": 0.61,
+                        "OTHER": 28.07
+                    },
+                    {
+                        "year": "year_2",
+                        "LIKE YOU DO": 172.09,
+                        "BEAM": 850.19,
+                        "UP ALL NIGHT": 84.91,
+                        "DON'T FORGET ME IN TIME": 22.05,
+                        "CAN'T STOP THIS FEELING": 1.34,
+                        "OTHER": 17.85
+                    },
+                    {
+                        "year": "year_3",
+                        "LIKE YOU DO": 740.71,
+                        "BEAM": 451.65,
+                        "UP ALL NIGHT": 114.03,
+                        "DON'T FORGET ME IN TIME": 12.98,
+                        "CAN'T STOP THIS FEELING": 1.75,
+                        "OTHER": 27.91
+                    },
+                    {
+                        "year": "year_4",
+                        "LIKE YOU DO": 1313.27,
+                        "BEAM": 349.71,
+                        "UP ALL NIGHT": 91.26,
+                        "DON'T FORGET ME IN TIME": 20.43,
+                        "CAN'T STOP THIS FEELING": 0.89,
+                        "OTHER": 148.47
+                    },
+                    {
+                        "year": "year_5",
+                        "LIKE YOU DO": 997.59,
+                        "BEAM": 243.2,
+                        "UP ALL NIGHT": 61.35,
+                        "DON'T FORGET ME IN TIME": 23.58,
+                        "CAN'T STOP THIS FEELING": 23.33,
+                        "OTHER": 35.83
+                    }
+                ],
+                "top_income_types": [
+                    {
+                        "year": "year_1",
+                        "PERFORMANCE": 1822.736
+                    },
+                    {
+                        "year": "year_2",
+                        "PERFORMANCE": 1148.441
+                    },
+                    {
+                        "year": "year_3",
+                        "PERFORMANCE": 1349.03
+                    },
+                    {
+                        "year": "year_4",
+                        "PERFORMANCE": 1924.028
+                    },
+                    {
+                        "year": "year_5",
+                        "PERFORMANCE": 1384.868
+                    }
+                ],
+                "top_sources": [
+                    {
+                        "year": "year_1",
+                        "INTERNATIONAL": 983.298,
+                        "STREAMING": 176.888,
+                        "RETAIL MUSIC SERVICE": 8.093,
+                        "STREAMING VIDEO": 11.314,
+                        "TV-FILM": 0.207,
+                        "OTHER": 642.936
+                    },
+                    {
+                        "year": "year_2",
+                        "INTERNATIONAL": 386.385,
+                        "STREAMING": 194.923,
+                        "RETAIL MUSIC SERVICE": 6.756,
+                        "STREAMING VIDEO": 9.985,
+                        "TV-FILM": 0,
+                        "OTHER": 550.392
+                    },
+                    {
+                        "year": "year_3",
+                        "INTERNATIONAL": 314.782,
+                        "STREAMING": 234.102,
+                        "RETAIL MUSIC SERVICE": 23.02,
+                        "STREAMING VIDEO": 12.026,
+                        "TV-FILM": 0.713,
+                        "OTHER": 764.386
+                    },
+                    {
+                        "year": "year_4",
+                        "INTERNATIONAL": 386.412,
+                        "STREAMING": 174.83,
+                        "RETAIL MUSIC SERVICE": 12.074,
+                        "STREAMING VIDEO": 12.25,
+                        "TV-FILM": 5.62,
+                        "OTHER": 1332.843
+                    },
+                    {
+                        "year": "year_5",
+                        "INTERNATIONAL": 262.048,
+                        "STREAMING": 126.74,
+                        "RETAIL MUSIC SERVICE": 11.325,
+                        "STREAMING VIDEO": 9.444,
+                        "TV-FILM": 7.56,
+                        "OTHER": 967.75
+                    }
+                ],
+                "top_music_users": [
+                    {
+                        "year": "year_1",
+                        "STREAMING": 232.562,
+                        "SPOTIFY": 88.349,
+                        "REPROCESS CY2023 IN JUNE/JULY 2024": 0,
+                        "REPROCESS CY2024 IN MARCH/APRIL 2025": 0,
+                        "APPLE MUSIC": 45.746,
+                        "OTHER": 1456.08
+                    },
+                    {
+                        "year": "year_2",
+                        "STREAMING": 158.613,
+                        "SPOTIFY": 110.852,
+                        "REPROCESS CY2023 IN JUNE/JULY 2024": 0,
+                        "REPROCESS CY2024 IN MARCH/APRIL 2025": 0,
+                        "APPLE MUSIC": 39.656,
+                        "OTHER": 839.32
+                    },
+                    {
+                        "year": "year_3",
+                        "STREAMING": 142.793,
+                        "SPOTIFY": 125.567,
+                        "REPROCESS CY2023 IN JUNE/JULY 2024": 0,
+                        "REPROCESS CY2024 IN MARCH/APRIL 2025": 0,
+                        "APPLE MUSIC": 48.816,
+                        "OTHER": 1031.854
+                    },
+                    {
+                        "year": "year_4",
+                        "STREAMING": 136.786,
+                        "SPOTIFY": 102.72,
+                        "REPROCESS CY2023 IN JUNE/JULY 2024": 0,
+                        "REPROCESS CY2024 IN MARCH/APRIL 2025": 0,
+                        "APPLE MUSIC": 36.255,
+                        "OTHER": 1648.266
+                    },
+                    {
+                        "year": "year_5",
+                        "STREAMING": 121.439,
+                        "SPOTIFY": 64.177,
+                        "REPROCESS CY2023 IN JUNE/JULY 2024": 61.269,
+                        "REPROCESS CY2024 IN MARCH/APRIL 2025": 43.272,
+                        "APPLE MUSIC": 30.565,
+                        "OTHER": 1064.146
+                    }
+                ],
+                "top_royalty_payors": null
+            },
+            "top_income_types": [
+                {
+                    "name": "PERFORMANCE",
+                    "earnings": 1384.87,
+                    "track_count": 13
+                }
+            ],
+            "top_music_users": [
+                {
+                    "name": "STREAMING",
+                    "earnings": 121.44,
+                    "track_count": null
+                },
+                {
+                    "name": "SPOTIFY",
+                    "earnings": 64.18,
+                    "track_count": null
+                },
+                {
+                    "name": "REPROCESS CY2023 IN JUNE/JULY 2024",
+                    "earnings": 61.27,
+                    "track_count": null
+                },
+                {
+                    "name": "REPROCESS CY2024 IN MARCH/APRIL 2025",
+                    "earnings": 43.27,
+                    "track_count": null
+                },
+                {
+                    "name": "APPLE MUSIC",
+                    "earnings": 30.56,
+                    "track_count": null
+                },
+                {
+                    "name": "OTHER",
+                    "earnings": 1064.15,
+                    "track_count": null
+                }
+            ],
+            "top_songs": [
+                {
+                    "name": "LIKE YOU DO",
+                    "earnings": 997.59
+                },
+                {
+                    "name": "BEAM",
+                    "earnings": 243.2
+                },
+                {
+                    "name": "UP ALL NIGHT",
+                    "earnings": 61.35
+                },
+                {
+                    "name": "DON'T FORGET ME IN TIME",
+                    "earnings": 23.58
+                },
+                {
+                    "name": "CAN'T STOP THIS FEELING",
+                    "earnings": 23.33
+                },
+                {
+                    "name": "OTHER",
+                    "earnings": 35.83
+                }
+            ],
+            "top_sources": [
+                {
+                    "name": "INTERNATIONAL",
+                    "earnings": 262.05,
+                    "track_count": 11,
+                    "earning_details": [
+                        {
+                            "name": "STREAMING",
+                            "earnings": 151.59
+                        },
+                        {
+                            "name": "TV-FILM",
+                            "earnings": 32.92
+                        },
+                        {
+                            "name": "STREAMING VIDEO",
+                            "earnings": 5.02
+                        },
+                        {
+                            "name": "RADIO",
+                            "earnings": 4.54
+                        },
+                        {
+                            "name": "RETAIL MUSIC SERVICE",
+                            "earnings": 4.5
+                        },
+                        {
+                            "name": "OTHER",
+                            "earnings": 63.47
+                        }
+                    ]
+                },
+                {
+                    "name": "STREAMING",
+                    "earnings": 126.74,
+                    "track_count": 13,
+                    "earning_details": []
+                },
+                {
+                    "name": "RETAIL MUSIC SERVICE",
+                    "earnings": 11.32,
+                    "track_count": 9,
+                    "earning_details": []
+                },
+                {
+                    "name": "STREAMING VIDEO",
+                    "earnings": 9.44,
+                    "track_count": 8,
+                    "earning_details": []
+                },
+                {
+                    "name": "TV-FILM",
+                    "earnings": 7.56,
+                    "track_count": 4,
+                    "earning_details": []
+                },
+                {
+                    "name": "OTHER",
+                    "earnings": 967.75,
+                    "track_count": 12,
+                    "earning_details": []
+                }
+            ],
+            "track_list": [
+                {
+                    "parent_id": "",
+                    "id": "885265992",
+                    "title": "ALL LOST AT C"
+                },
+                {
+                    "parent_id": "",
+                    "id": "887530499",
+                    "title": "BEAM"
+                },
+                {
+                    "parent_id": "",
+                    "id": "885982930",
+                    "title": "CAN'T STOP THIS FEELING"
+                },
+                {
+                    "parent_id": "",
+                    "id": "885265985",
+                    "title": "CHAI TEA LATTE"
+                },
+                {
+                    "parent_id": "",
+                    "id": "343226397",
+                    "title": "DON'T FORGET ME IN TIME"
+                },
+                {
+                    "parent_id": "",
+                    "id": "885265990",
+                    "title": "LIGHTNING STRIKES"
+                },
+                {
+                    "parent_id": "",
+                    "id": "423325459",
+                    "title": "LIKE YOU DO"
+                },
+                {
+                    "parent_id": "",
+                    "id": "433714019",
+                    "title": "MAKE ME BELIEVE"
+                },
+                {
+                    "parent_id": "",
+                    "id": "433645719",
+                    "title": "MAPLE TREE"
+                },
+                {
+                    "parent_id": "",
+                    "id": "885311926",
+                    "title": "NOT EVEN HUMAN"
+                },
+                {
+                    "parent_id": "",
+                    "id": "496317554",
+                    "title": "SHINE"
+                },
+                {
+                    "parent_id": "",
+                    "id": "885311924",
+                    "title": "TOO GOOD FOR WORDS"
+                },
+                {
+                    "parent_id": "",
+                    "id": "887346203",
+                    "title": "UP ALL NIGHT"
+                }
+            ]
+        },
+        "valuation_description": null,
+        "last_websocket_message_published_at": "2025-04-14T22:14:25.056254Z"
+    }
+}

@@ -106,3 +106,37 @@ def parse_full_listing(json_data: dict, asset_id: str) -> dict:
 
     return flat
 
+def extract_youtube_id(youtube_embed_url: str) -> str:
+    """
+    Extracts the video ID from a YouTube embed URL.
+    Example:
+      Input: "https://www.youtube.com/embed/CAwf5KN6zN8?autoplay=0&mute=0&controls=1..."
+      Output: "CAwf5KN6zN8"
+    """
+    if "/embed/" in youtube_embed_url:
+        # Split the URL by '/embed/' and then split again by '?' to remove any query parameters.
+        return youtube_embed_url.split("/embed/")[1].split("?")[0]
+    return ""
+
+def standardize_youtube_url(embed_url: str) -> str:
+    """
+    Converts a YouTube embed URL into a canonical watch URL.
+    """
+    video_id = extract_youtube_id(embed_url)
+    if video_id:
+        return f"https://www.youtube.com/watch?v={video_id}"
+    return ""
+
+
+def parse_youtube_link(html: str) -> str:
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(html, "html.parser")
+    # Iterate over all iframes
+    for iframe in soup.find_all("iframe", src=True):
+        src = iframe["src"]
+        if "youtube.com/embed/" in src:
+            # Standardize the embed link to a watch URL.
+            return standardize_youtube_url(src.strip())
+    return ""
+

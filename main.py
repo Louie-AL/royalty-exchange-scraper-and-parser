@@ -3,12 +3,14 @@ from parser import (
     parse_offers, 
     parse_monthly_revenues, 
     parse_income_types_melted,
-    parse_full_listing
+    parse_full_listing,
+    parse_youtube_link
 )
 from scraper import init_driver, get_html_from_asset, get_json_from_api
 from utils import delay, setup_logger
 import pandas as pd
 import csv
+
 
 FINANCIALS_OUTPUT = "financials.csv"
 OFFERS_OUTPUT = "offers.csv"
@@ -53,6 +55,9 @@ def main(asset_ids):
 
             offers = parse_offers(json_data, aid)
             all_offers.extend(offers)
+
+            youtube_link = parse_youtube_link(html)
+            financial_data["YouTube Link"] = youtube_link
 
             delay()
 

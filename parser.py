@@ -129,14 +129,18 @@ def standardize_youtube_url(embed_url: str) -> str:
 
 
 def parse_youtube_link(html: str) -> str:
-    from bs4 import BeautifulSoup
 
+    """
+    Finds *all* YouTube embed iframes and returns their IDs
+    as a comma separated string, e.g. "ID1,ID2,ID3".
+    """
+    video_ids = []
     soup = BeautifulSoup(html, "html.parser")
-    # Iterate over all iframes
     for iframe in soup.find_all("iframe", src=True):
         src = iframe["src"]
         if "youtube.com/embed/" in src:
-            # Standardize the embed link to a watch URL.
-            return standardize_youtube_url(src.strip())
-    return ""
+            vid = extract_youtube_id(src)
+            if vid:
+                video_ids.append(vid)
+    return ",".join(video_ids)
 

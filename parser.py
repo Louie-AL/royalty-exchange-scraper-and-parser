@@ -7,7 +7,7 @@ import io
 import requests
 
 def parse_html(html: str) -> dict:
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html, "lxml")
     text = soup.get_text(separator=" ").strip()
     listing_data = {}
 
@@ -131,11 +131,11 @@ def standardize_youtube_url(embed_url: str) -> str:
 def parse_youtube_link(html: str) -> str:
 
     """
-    Finds *all* YouTube embed iframes and returns their IDs
-    as a comma separated string, e.g. "ID1,ID2,ID3".
+    Finds all YouTube embed iframes and returns their IDs
+    as a comma separated string
     """
     video_ids = []
-    soup = BeautifulSoup(html, "html.parser")
+    soup = BeautifulSoup(html, "lxml")
     for iframe in soup.find_all("iframe", src=True):
         src = iframe["src"]
         if "youtube.com/embed/" in src:

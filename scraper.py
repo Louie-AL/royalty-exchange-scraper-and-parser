@@ -6,6 +6,7 @@ from selenium.webdriver.edge.service import Service as EdgeService
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 import requests
 import time
+from utils import setup_logger
 
 def init_driver():
     options = Options()
@@ -24,5 +25,9 @@ def get_json_from_api(asset_id: str) -> dict:
     url = f"https://auctions.royaltyexchange.com/orderbook/api/listings/{asset_id}/"
     headers = {"User-Agent": "Mozilla/5.0"}
     response = requests.get(url, headers=headers)
-    response.raise_for_status()
-    return response.json()
+    if response.status_code == 200:
+        return response.json() # Log only when response is succesful, and skip when the endpoint returns 404 or other errors
+    logger = setup_logger()
+    logger.warning(f"Listing JSON for asset {asset_id} returned {response.status_code}")
+    return {}
+

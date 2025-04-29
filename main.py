@@ -36,6 +36,8 @@ def main(asset_ids):
             logger.info(f"Processing asset {aid}")
             html = get_html_from_asset(aid, driver)
             json_data = get_json_from_api(aid)
+            if not json_data:
+                continue
             print(f"[{aid}] earnings_file key present:", "earnings_file" in json_data.get("listing", {}))
 
             monthly = parse_monthly_revenues(json_data, aid)

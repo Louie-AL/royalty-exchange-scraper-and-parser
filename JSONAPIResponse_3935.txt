@@ -1,0 +1,457 @@
+Django REST frameworkluis_alonso
+Not Found Listing List Listing Instance
+
+Listing Instance
+GET /orderbook/api/listings/3935/
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "listing": {
+        "id": 3935,
+        "accept_final_offers": true,
+        "accepting_final_offers_end_at": null,
+        "accepting_final_offers_start_at": null,
+        "accepting_final_offers_initial_offer": null,
+        "active_listing_valuation_id": 279721,
+        "asset": 8246,
+        "buy_now_price": "125000.00",
+        "buy_now_price_history": [
+            {
+                "created_at": "2021-05-17T18:51:02.786119Z",
+                "buy_now_price": "125000.00"
+            },
+            {
+                "created_at": "2021-05-17T18:52:09.187443Z",
+                "buy_now_price": "125000.00"
+            },
+            {
+                "created_at": "2021-05-18T02:42:13.924242Z",
+                "buy_now_price": "125000.00"
+            },
+            {
+                "created_at": "2021-05-25T17:30:02.971508Z",
+                "buy_now_price": "125000.00"
+            }
+        ],
+        "buy_now_price_multiple": 4.4,
+        "buy_now_price_multiple_source": "ltm",
+        "custom_earnings_by_region_chart": "",
+        "deal": {
+            "id": 23886,
+            "amount": "124999.00",
+            "buyer_id": 65534,
+            "countered_offer_id": 23885,
+            "counteroffer_id": null,
+            "created_at": "2021-05-18T02:35:51.279971Z",
+            "expiration": "2021-05-19T02:35:51.256303Z",
+            "kind": "seller_counteroffer",
+            "multiple": "4.40",
+            "multiple_source": "ltm",
+            "state": "filled",
+            "term": "life_of_rights"
+        },
+        "default_buy_now_price": 150200,
+        "display_state": {
+            "message": "Sale Complete",
+            "available": true
+        },
+        "earnings_file": null,
+        "expiration": null,
+        "featured_source": null,
+        "generic_financials": null,
+        "hidden": false,
+        "included_rights": null,
+        "is_eligible_to_withdraw_offers_placed_before_update": false,
+        "is_featured": false,
+        "is_in_feature_queue": false,
+        "is_owner": false,
+        "is_track_list_hidden": false,
+        "kind": "direct_listing",
+        "marketplace_median": "125110.03",
+        "marketplace_median_multiplier": "4.405",
+        "marketplace_median_source": "ltm",
+        "media_urls": [
+            "https://www.youtube.com/watch?v=CakpXm61S2U",
+            "https://www.youtube.com/watch?v=o3wQoTqXgTA",
+            "https://www.youtube.com/watch?v=owHwDeUDiog"
+        ],
+        "minimum_price": "75000.00",
+        "offers": [
+            {
+                "id": 23886,
+                "amount": "124999.00",
+                "buyer_id": 65534,
+                "countered_offer_id": 23885,
+                "counteroffer_id": null,
+                "created_at": "2021-05-18T02:35:51.279971Z",
+                "expiration": "2021-05-19T02:35:51.256303Z",
+                "kind": "seller_counteroffer",
+                "multiple": "4.40",
+                "multiple_source": "ltm",
+                "state": "filled",
+                "term": "life_of_rights",
+                "bidder_index": 1
+            },
+            {
+                "id": 23885,
+                "amount": "100000.00",
+                "buyer_id": 65534,
+                "countered_offer_id": null,
+                "counteroffer_id": 23886,
+                "created_at": "2021-05-18T02:28:02.711883Z",
+                "expiration": "2021-05-19T02:28:02.663256Z",
+                "kind": "bid_offer",
+                "multiple": "3.52",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 1
+            }
+        ],
+        "offers_awaiting_acceptance": false,
+        "offers_received_count": 1,
+        "other_info": null,
+        "owner_last_active_date": "2021-05-25T17:30:02.971508Z",
+        "performing_artist_analysis": "",
+        "proxy_increment_amount": "1500.00",
+        "published_date": "2021-05-17T18:52:09.166330Z",
+        "requested_buy_now_price": null,
+        "royx_take": "0.1500",
+        "seller_id": 93104,
+        "state": "filled",
+        "tags": [
+            "BMI",
+            "Streaming Heavy",
+            "YoungBoy Never Broke Again",
+            "Hip-Hop",
+            "Rod Wave",
+            "21 Savage"
+        ],
+        "term": "life_of_rights",
+        "term_expiration": null,
+        "term_return_amount": null,
+        "thumbnail_large": null,
+        "title": "NBA YoungBoy - \"Self Control\" + More - Songwriter Royalties",
+        "track_count": 9,
+        "unique_bidder_count": 1,
+        "valuation": {
+            "id": 279721,
+            "distribution_frequency": 4,
+            "dollar_age": 2.4,
+            "earnings_by_region": [
+                [
+                    "2017-01-01",
+                    {
+                        "domestic": 1356.95,
+                        "intl": 0.0,
+                        "unreported": 0,
+                        "total": 1356.95
+                    }
+                ],
+                [
+                    "2017-04-01",
+                    {
+                        "domestic": 2100.5000000000005,
+                        "intl": 0.0,
+                        "unreported": 0,
+                        "total": 2100.5000000000005
+                    }
+                ],
+                [
+                    "2017-07-01",
+                    {
+                        "domestic": 3753.7200000000003,
+                        "intl": 0.0,
+                        "unreported": 0,
+                        "total": 3753.7200000000003
+                    }
+                ],
+                [
+                    "2017-10-01",
+                    {
+                        "domestic": 5273.76,
+                        "intl": 241.95,
+                        "unreported": 0,
+                        "total": 5515.709999999999
+                    }
+                ],
+                [
+                    "2018-01-01",
+                    {
+                        "domestic": 8267.130000000001,
+                        "intl": 341.63,
+                        "unreported": 0,
+                        "total": 8608.76
+                    }
+                ],
+                [
+                    "2018-04-01",
+                    {
+                        "domestic": 8558.48,
+                        "intl": 1192.95,
+                        "unreported": 0,
+                        "total": 9751.429999999998
+                    }
+                ],
+                [
+                    "2018-07-01",
+                    {
+                        "domestic": 6390.670000000001,
+                        "intl": 479.55,
+                        "unreported": 0,
+                        "total": 6870.22
+                    }
+                ],
+                [
+                    "2018-10-01",
+                    {
+                        "domestic": 4973.619999999999,
+                        "intl": 156.05,
+                        "unreported": 0,
+                        "total": 5129.669999999999
+                    }
+                ],
+                [
+                    "2019-01-01",
+                    {
+                        "domestic": 6670.9400000000005,
+                        "intl": 323.8499999999999,
+                        "unreported": 0,
+                        "total": 6994.79
+                    }
+                ],
+                [
+                    "2019-04-01",
+                    {
+                        "domestic": 4541.030000000001,
+                        "intl": 513.63,
+                        "unreported": 0,
+                        "total": 5054.66
+                    }
+                ],
+                [
+                    "2019-07-01",
+                    {
+                        "domestic": 5726.0,
+                        "intl": 256.96,
+                        "unreported": 0,
+                        "total": 5982.96
+                    }
+                ],
+                [
+                    "2019-10-01",
+                    {
+                        "domestic": 10921.29,
+                        "intl": 552.47,
+                        "unreported": 0,
+                        "total": 11473.759999999998
+                    }
+                ],
+                [
+                    "2020-01-01",
+                    {
+                        "domestic": 5827.959999999999,
+                        "intl": 351.09000000000003,
+                        "unreported": 0,
+                        "total": 6179.049999999999
+                    }
+                ],
+                [
+                    "2020-04-01",
+                    {
+                        "domestic": 5149.31,
+                        "intl": 346.83,
+                        "unreported": 0,
+                        "total": 5496.14
+                    }
+                ],
+                [
+                    "2020-07-01",
+                    {
+                        "domestic": 4947.58,
+                        "intl": 304.51,
+                        "unreported": 0,
+                        "total": 5252.09
+                    }
+                ]
+            ],
+            "first_earnings_date": "2017-01-01T07:00:00Z",
+            "lifetime_amount": 89520.41,
+            "ltm": 28401.04,
+            "regions": [
+                "all"
+            ],
+            "statistics_last_updated": "2021-05-14T17:25:46.162408Z",
+            "three_years_average": 27436.41,
+            "top_earnings_by_year": null,
+            "top_income_types": [
+                {
+                    "name": "PERFORMANCE",
+                    "earnings": 28401.04,
+                    "track_count": 9
+                }
+            ],
+            "top_music_users": [
+                {
+                    "name": "APPLE MUSIC",
+                    "earnings": 14516.42,
+                    "track_count": null
+                },
+                {
+                    "name": "SPOTIFY",
+                    "earnings": 3642.15,
+                    "track_count": null
+                },
+                {
+                    "name": "PANDORA",
+                    "earnings": 2817.78,
+                    "track_count": null
+                },
+                {
+                    "name": "YOUTUBE",
+                    "earnings": 2148.15,
+                    "track_count": null
+                },
+                {
+                    "name": "SOUNDCLOUD",
+                    "earnings": 745.15,
+                    "track_count": null
+                },
+                {
+                    "name": "OTHER",
+                    "earnings": 4531.39,
+                    "track_count": null
+                }
+            ],
+            "top_songs": [
+                {
+                    "name": "SELF CONTROL",
+                    "earnings": 11829.19
+                },
+                {
+                    "name": "PREACH",
+                    "earnings": 4491.47
+                },
+                {
+                    "name": "MURDER REMIX",
+                    "earnings": 2857.51
+                },
+                {
+                    "name": "DIAMOND TEETH SAMURAI",
+                    "earnings": 2206.23
+                },
+                {
+                    "name": "BEAM EFFECT",
+                    "earnings": 1915.1
+                },
+                {
+                    "name": "OTHER",
+                    "earnings": 5101.54
+                }
+            ],
+            "top_sources": [
+                {
+                    "name": "STREAMING",
+                    "earnings": 24772.54,
+                    "track_count": 9,
+                    "earning_details": []
+                },
+                {
+                    "name": "INTERNATIONAL",
+                    "earnings": 1554.9,
+                    "track_count": 7,
+                    "earning_details": [
+                        {
+                            "name": "TV-FILM",
+                            "earnings": 20.68
+                        },
+                        {
+                            "name": "RADIO",
+                            "earnings": 7.23
+                        },
+                        {
+                            "name": "OTHER",
+                            "earnings": 1526.99
+                        }
+                    ]
+                },
+                {
+                    "name": "TV-FILM",
+                    "earnings": 1115.68,
+                    "track_count": 3,
+                    "earning_details": []
+                },
+                {
+                    "name": "STREAMING VIDEO",
+                    "earnings": 67.1,
+                    "track_count": 2,
+                    "earning_details": []
+                },
+                {
+                    "name": "RADIO",
+                    "earnings": 22.51,
+                    "track_count": 6,
+                    "earning_details": []
+                },
+                {
+                    "name": "OTHER",
+                    "earnings": 868.31,
+                    "track_count": 18,
+                    "earning_details": []
+                }
+            ],
+            "track_list": [
+                {
+                    "parent_id": "",
+                    "id": "29111430",
+                    "title": "BEAM EFFECT"
+                },
+                {
+                    "parent_id": "",
+                    "id": "27266612",
+                    "title": "DIAMOND TEETH SAMURAI"
+                },
+                {
+                    "parent_id": "",
+                    "id": "43573363",
+                    "title": "DIAMONDS"
+                },
+                {
+                    "parent_id": "",
+                    "id": "44328327",
+                    "title": "FLY"
+                },
+                {
+                    "parent_id": "",
+                    "id": "25053171",
+                    "title": "GG"
+                },
+                {
+                    "parent_id": "",
+                    "id": "24305713",
+                    "title": "MURDER"
+                },
+                {
+                    "parent_id": "",
+                    "id": "27265773",
+                    "title": "PREACH"
+                },
+                {
+                    "parent_id": "",
+                    "id": "34000860",
+                    "title": "SELF CONTROL"
+                },
+                {
+                    "parent_id": "",
+                    "id": "27163815",
+                    "title": "WORTH IT"
+                }
+            ]
+        },
+        "valuation_description": null,
+        "last_websocket_message_published_at": "2025-01-16T20:26:35.412743Z"
+    }
+}

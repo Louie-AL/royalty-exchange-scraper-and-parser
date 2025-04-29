@@ -1,0 +1,1318 @@
+Django REST frameworkluis_alonso
+Not Found Listing List Listing Instance
+
+Listing Instance
+GET /orderbook/api/listings/6160/
+HTTP 200 OK
+Allow: GET, HEAD, OPTIONS
+Content-Type: application/json
+Vary: Accept
+
+{
+    "listing": {
+        "id": 6160,
+        "accept_final_offers": true,
+        "accepting_final_offers_end_at": "2025-04-21T03:51:59.833107Z",
+        "accepting_final_offers_start_at": "2025-04-20T03:40:05.625445Z",
+        "accepting_final_offers_initial_offer": 105603,
+        "active_listing_valuation_id": 790920,
+        "asset": 33856,
+        "buy_now_price": null,
+        "buy_now_price_history": [
+            {
+                "created_at": "2025-04-15T14:05:17.198498Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2025-04-15T14:10:21.825998Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2025-04-16T17:00:32.697950Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2025-04-18T19:41:41.286945Z",
+                "buy_now_price": "37500.00"
+            },
+            {
+                "created_at": "2025-04-20T03:40:05.680210Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2025-04-21T03:52:01.156811Z",
+                "buy_now_price": "-1"
+            },
+            {
+                "created_at": "2025-04-24T14:55:12.281565Z",
+                "buy_now_price": "-1"
+            }
+        ],
+        "buy_now_price_multiple": null,
+        "buy_now_price_multiple_source": null,
+        "custom_earnings_by_region_chart": "",
+        "deal": {
+            "id": 105631,
+            "amount": "39700.00",
+            "buyer_id": 154933,
+            "countered_offer_id": null,
+            "counteroffer_id": null,
+            "created_at": "2025-04-21T03:46:59.778527Z",
+            "expiration": null,
+            "kind": "bid_offer",
+            "multiple": "13.00",
+            "multiple_source": "ltm",
+            "state": "filled",
+            "term": "life_of_rights"
+        },
+        "default_buy_now_price": 39300,
+        "display_state": {
+            "message": "Sale Complete",
+            "available": true
+        },
+        "earnings_file": null,
+        "expiration": null,
+        "featured_source": null,
+        "generic_financials": null,
+        "hidden": false,
+        "included_rights": null,
+        "is_eligible_to_withdraw_offers_placed_before_update": false,
+        "is_featured": false,
+        "is_in_feature_queue": false,
+        "is_owner": false,
+        "is_track_list_hidden": false,
+        "kind": "direct_listing",
+        "marketplace_median": "32687.64",
+        "marketplace_median_multiplier": "10.700",
+        "marketplace_median_source": "ltm",
+        "media_urls": [
+            "https://www.youtube.com/watch?v=CS1sYR7xky8",
+            "https://www.youtube.com/watch?v=hW-evxSyLCs"
+        ],
+        "minimum_price": "15000.00",
+        "offers": [
+            {
+                "id": 105631,
+                "amount": "39700.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:46:59.778527Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "13.00",
+                "multiple_source": "ltm",
+                "state": "filled",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105630,
+                "amount": "39485.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:42:49.354771Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.93",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105629,
+                "amount": "39310.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:42:49.017729Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.87",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105628,
+                "amount": "39110.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:41:28.531642Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.80",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105627,
+                "amount": "38910.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:41:27.853230Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.74",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105626,
+                "amount": "38703.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:39:16.419049Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.67",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105625,
+                "amount": "38503.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:39:16.287762Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.60",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105624,
+                "amount": "38101.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:39:16.075005Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.47",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105623,
+                "amount": "37901.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-21T03:35:00.084767Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.41",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105618,
+                "amount": "37700.00",
+                "buyer_id": 26674,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T19:56:42.821479Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.34",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 11
+            },
+            {
+                "id": 105604,
+                "amount": "37500.00",
+                "buyer_id": 26674,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T03:40:06.338337Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.28",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 11
+            },
+            {
+                "id": 105603,
+                "amount": "37500.00",
+                "buyer_id": 13295,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T03:40:05.639442Z",
+                "expiration": null,
+                "kind": "bid_offer",
+                "multiple": "12.28",
+                "multiple_source": "ltm",
+                "state": "fail_offer_outbid",
+                "term": "life_of_rights",
+                "bidder_index": 12
+            },
+            {
+                "id": 105602,
+                "amount": "34088.00",
+                "buyer_id": 26674,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T03:39:33.929121Z",
+                "expiration": "2025-04-23T03:39:33.913388Z",
+                "kind": "bid_offer",
+                "multiple": "11.16",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 11
+            },
+            {
+                "id": 105601,
+                "amount": "33888.00",
+                "buyer_id": 13295,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T03:39:33.850614Z",
+                "expiration": "2025-04-23T03:39:33.833388Z",
+                "kind": "bid_offer",
+                "multiple": "11.09",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 12
+            },
+            {
+                "id": 105597,
+                "amount": "32951.00",
+                "buyer_id": 26674,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T02:50:05.437153Z",
+                "expiration": "2025-04-23T02:50:05.422994Z",
+                "kind": "bid_offer",
+                "multiple": "10.79",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 11
+            },
+            {
+                "id": 105596,
+                "amount": "32751.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T02:50:05.289532Z",
+                "expiration": "2025-04-23T02:50:05.269698Z",
+                "kind": "bid_offer",
+                "multiple": "10.72",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105595,
+                "amount": "32000.00",
+                "buyer_id": 26674,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-20T02:50:05.181520Z",
+                "expiration": "2025-04-23T02:50:05.163308Z",
+                "kind": "bid_offer",
+                "multiple": "10.47",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 11
+            },
+            {
+                "id": 105580,
+                "amount": "28501.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-19T17:18:00.810692Z",
+                "expiration": "2025-04-22T17:18:00.795202Z",
+                "kind": "bid_offer",
+                "multiple": "9.33",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105579,
+                "amount": "31000.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-19T17:18:00.699435Z",
+                "expiration": "2025-04-22T17:18:00.679772Z",
+                "kind": "bid_offer",
+                "multiple": "10.15",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105561,
+                "amount": "28000.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-19T01:01:59.944781Z",
+                "expiration": "2025-04-22T01:01:59.928839Z",
+                "kind": "bid_offer",
+                "multiple": "9.17",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105559,
+                "amount": "37500.00",
+                "buyer_id": 33171,
+                "countered_offer_id": 105527,
+                "counteroffer_id": null,
+                "created_at": "2025-04-18T19:43:06.557676Z",
+                "expiration": "2025-04-21T19:43:06.533930Z",
+                "kind": "seller_counteroffer",
+                "multiple": "12.28",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 7
+            },
+            {
+                "id": 105558,
+                "amount": "37500.00",
+                "buyer_id": 62006,
+                "countered_offer_id": 105533,
+                "counteroffer_id": null,
+                "created_at": "2025-04-18T19:42:27.781283Z",
+                "expiration": "2025-04-21T19:42:27.761037Z",
+                "kind": "seller_counteroffer",
+                "multiple": "12.28",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 9
+            },
+            {
+                "id": 105557,
+                "amount": "37500.00",
+                "buyer_id": 44002,
+                "countered_offer_id": 105534,
+                "counteroffer_id": null,
+                "created_at": "2025-04-18T19:42:15.677962Z",
+                "expiration": "2025-04-21T19:42:15.654517Z",
+                "kind": "seller_counteroffer",
+                "multiple": "12.28",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 6
+            },
+            {
+                "id": 105556,
+                "amount": "37500.00",
+                "buyer_id": 154933,
+                "countered_offer_id": 105552,
+                "counteroffer_id": null,
+                "created_at": "2025-04-18T19:41:51.794933Z",
+                "expiration": "2025-04-21T19:41:51.774785Z",
+                "kind": "seller_counteroffer",
+                "multiple": "12.28",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105552,
+                "amount": "27500.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": 105556,
+                "created_at": "2025-04-18T17:41:42.051679Z",
+                "expiration": "2025-04-21T17:41:42.028006Z",
+                "kind": "bid_offer",
+                "multiple": "9.00",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105534,
+                "amount": "25500.00",
+                "buyer_id": 44002,
+                "countered_offer_id": null,
+                "counteroffer_id": 105557,
+                "created_at": "2025-04-18T03:46:14.224807Z",
+                "expiration": "2025-04-21T03:46:14.203428Z",
+                "kind": "bid_offer",
+                "multiple": "8.35",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 6
+            },
+            {
+                "id": 105533,
+                "amount": "22000.00",
+                "buyer_id": 62006,
+                "countered_offer_id": null,
+                "counteroffer_id": 105558,
+                "created_at": "2025-04-17T23:08:21.474114Z",
+                "expiration": "2025-04-20T23:08:21.442834Z",
+                "kind": "bid_offer",
+                "multiple": "7.20",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 9
+            },
+            {
+                "id": 105532,
+                "amount": "25000.00",
+                "buyer_id": 154933,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T23:08:21.245762Z",
+                "expiration": "2025-04-20T23:08:21.217607Z",
+                "kind": "bid_offer",
+                "multiple": "8.18",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 10
+            },
+            {
+                "id": 105531,
+                "amount": "20200.00",
+                "buyer_id": 62006,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T23:02:56.275498Z",
+                "expiration": "2025-04-20T23:02:56.245724Z",
+                "kind": "bid_offer",
+                "multiple": "6.61",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 9
+            },
+            {
+                "id": 105527,
+                "amount": "20000.00",
+                "buyer_id": 33171,
+                "countered_offer_id": null,
+                "counteroffer_id": 105559,
+                "created_at": "2025-04-17T20:04:26.382709Z",
+                "expiration": "2025-04-20T20:04:26.357725Z",
+                "kind": "bid_offer",
+                "multiple": "6.55",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 7
+            },
+            {
+                "id": 105498,
+                "amount": "19250.00",
+                "buyer_id": 132552,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T17:26:14.672909Z",
+                "expiration": "2025-04-20T17:26:14.609041Z",
+                "kind": "bid_offer",
+                "multiple": "6.30",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 8
+            },
+            {
+                "id": 105488,
+                "amount": "19000.00",
+                "buyer_id": 33171,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T13:32:18.785138Z",
+                "expiration": "2025-04-20T13:32:18.767483Z",
+                "kind": "bid_offer",
+                "multiple": "6.22",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 7
+            },
+            {
+                "id": 105487,
+                "amount": "17251.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T13:23:28.948307Z",
+                "expiration": "2025-04-20T13:23:28.929826Z",
+                "kind": "bid_offer",
+                "multiple": "5.65",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105486,
+                "amount": "18000.00",
+                "buyer_id": 44002,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T13:23:28.866737Z",
+                "expiration": "2025-04-20T13:23:28.846760Z",
+                "kind": "bid_offer",
+                "multiple": "5.89",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 6
+            },
+            {
+                "id": 105485,
+                "amount": "17200.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T13:22:10.537138Z",
+                "expiration": "2025-04-20T13:22:10.520482Z",
+                "kind": "bid_offer",
+                "multiple": "5.63",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105484,
+                "amount": "17000.00",
+                "buyer_id": 44002,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T13:22:10.388082Z",
+                "expiration": "2025-04-20T13:22:10.365225Z",
+                "kind": "bid_offer",
+                "multiple": "5.56",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 6
+            },
+            {
+                "id": 105483,
+                "amount": "16200.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T12:21:00.405130Z",
+                "expiration": "2025-04-20T12:21:00.385363Z",
+                "kind": "bid_offer",
+                "multiple": "5.30",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105482,
+                "amount": "16000.00",
+                "buyer_id": 143762,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T12:21:00.207979Z",
+                "expiration": "2025-04-20T12:21:00.123645Z",
+                "kind": "bid_offer",
+                "multiple": "5.24",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 5
+            },
+            {
+                "id": 105481,
+                "amount": "15500.00",
+                "buyer_id": 44661,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T12:19:33.481089Z",
+                "expiration": "2025-04-20T12:19:33.464531Z",
+                "kind": "bid_offer",
+                "multiple": "5.07",
+                "multiple_source": "ltm",
+                "state": "fail_offer_increased",
+                "term": "life_of_rights",
+                "bidder_index": 4
+            },
+            {
+                "id": 105480,
+                "amount": "15200.00",
+                "buyer_id": 148560,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-17T03:28:36.206341Z",
+                "expiration": "2025-04-20T03:28:36.189133Z",
+                "kind": "bid_offer",
+                "multiple": "4.98",
+                "multiple_source": "ltm",
+                "state": "fail_buy_order_canceled",
+                "term": "life_of_rights",
+                "bidder_index": 3
+            },
+            {
+                "id": 105474,
+                "amount": "15100.00",
+                "buyer_id": 23961,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-16T21:52:02.033136Z",
+                "expiration": "2025-04-19T21:52:01.973138Z",
+                "kind": "bid_offer",
+                "multiple": "4.94",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 2
+            },
+            {
+                "id": 105471,
+                "amount": "15001.00",
+                "buyer_id": 35826,
+                "countered_offer_id": null,
+                "counteroffer_id": null,
+                "created_at": "2025-04-16T19:06:07.882254Z",
+                "expiration": "2025-04-19T19:06:07.862919Z",
+                "kind": "bid_offer",
+                "multiple": "4.91",
+                "multiple_source": "ltm",
+                "state": "fail_offer_rejected",
+                "term": "life_of_rights",
+                "bidder_index": 1
+            }
+        ],
+        "offers_awaiting_acceptance": false,
+        "offers_received_count": 38,
+        "other_info": "<p><strong>Earnings Note.</strong>&nbsp;The copyright term for this asset will be valid though 2061. The original compositions, &ldquo;Time Won&#39;t Let Me&rdquo; &amp; &quot;Lost In My World&quot;&nbsp;were&nbsp;created in 1966. According to U.S. copyright law, the copyright was automatically renewed to last 95 years from the creation date. &nbsp;As this composition was written prior to 1978 the copyright term is not &ldquo;life of author&rdquo; plus 70 years.</p>",
+        "owner_last_active_date": "2025-04-18T19:45:22.263180Z",
+        "performing_artist_analysis": "<p>&quot;Time Won&rsquo;t Let Me&quot; is a 1966 hit by Cleveland-based band The Outsiders. Released as their debut single, it became their biggest success, reaching No. 5 on the Billboard Hot 100 and in Canada. The song, which blends Merseybeat and Motown influences with jangly 12-string guitar and horn sections, was included on their debut album of the same name. Its popularity helped the band&nbsp;gain national exposure through tours and TV appearances. The song was featured in the 1994 film <em data-end=\"712\" data-start=\"703\">Timecop </em>and&nbsp;has&nbsp;been covered by artists like Iggy Pop and The Smithereens, cementing its legacy as a garage rock staple. ​&quot;Lost in My World&quot; is a 1966 track by The Outsiders, featured as the B-side to their single &quot;Respectable,&quot; released on Capitol Records.&nbsp;</p>",
+        "proxy_increment_amount": "200.00",
+        "published_date": "2025-04-16T17:00:32.668942Z",
+        "requested_buy_now_price": null,
+        "royx_take": "0.1500",
+        "seller_id": 157417,
+        "state": "filled",
+        "tags": [
+            "Songwriter",
+            "Garage Rock",
+            "BMI",
+            "The Outsiders",
+            "Classic Rock",
+            "High Dollar Age"
+        ],
+        "term": "life_of_rights",
+        "term_expiration": null,
+        "term_return_amount": null,
+        "thumbnail_large": null,
+        "title": "Songwriting Royalties for The Outsiders",
+        "track_count": 2,
+        "unique_bidder_count": 12,
+        "valuation": {
+            "id": 790920,
+            "distribution_frequency": 4,
+            "dollar_age": 59.24,
+            "earnings_by_region": [
+                [
+                    "2014-10-01",
+                    {
+                        "domestic": 569.02,
+                        "intl": 106.11,
+                        "unreported": 0.0,
+                        "total": 675.13
+                    }
+                ],
+                [
+                    "2015-01-01",
+                    {
+                        "domestic": 713.93,
+                        "intl": 108.29,
+                        "unreported": 0.0,
+                        "total": 822.22
+                    }
+                ],
+                [
+                    "2015-04-01",
+                    {
+                        "domestic": 549.05,
+                        "intl": 80.45,
+                        "unreported": 0.0,
+                        "total": 629.5
+                    }
+                ],
+                [
+                    "2015-07-01",
+                    {
+                        "domestic": 519.28,
+                        "intl": 73.29,
+                        "unreported": 0.0,
+                        "total": 592.57
+                    }
+                ],
+                [
+                    "2015-10-01",
+                    {
+                        "domestic": 482.83,
+                        "intl": 90.45,
+                        "unreported": 0.0,
+                        "total": 573.28
+                    }
+                ],
+                [
+                    "2016-01-01",
+                    {
+                        "domestic": 594.37,
+                        "intl": 87.54,
+                        "unreported": 0.0,
+                        "total": 681.91
+                    }
+                ],
+                [
+                    "2016-04-01",
+                    {
+                        "domestic": 844.13,
+                        "intl": 122.21,
+                        "unreported": 0.0,
+                        "total": 966.34
+                    }
+                ],
+                [
+                    "2016-07-01",
+                    {
+                        "domestic": 798.92,
+                        "intl": 133.44,
+                        "unreported": 0.0,
+                        "total": 932.36
+                    }
+                ],
+                [
+                    "2016-10-01",
+                    {
+                        "domestic": 441.91,
+                        "intl": 108.2,
+                        "unreported": 0.0,
+                        "total": 550.11
+                    }
+                ],
+                [
+                    "2017-01-01",
+                    {
+                        "domestic": 1157.16,
+                        "intl": 201.29,
+                        "unreported": 0.0,
+                        "total": 1358.45
+                    }
+                ],
+                [
+                    "2017-04-01",
+                    {
+                        "domestic": 1055.67,
+                        "intl": 111.86,
+                        "unreported": 0.0,
+                        "total": 1167.53
+                    }
+                ],
+                [
+                    "2017-07-01",
+                    {
+                        "domestic": 888.21,
+                        "intl": 121.41,
+                        "unreported": 0.0,
+                        "total": 1009.62
+                    }
+                ],
+                [
+                    "2017-10-01",
+                    {
+                        "domestic": 627.71,
+                        "intl": 103.8,
+                        "unreported": 0.0,
+                        "total": 731.51
+                    }
+                ],
+                [
+                    "2018-01-01",
+                    {
+                        "domestic": 869.21,
+                        "intl": 152.42,
+                        "unreported": 0.0,
+                        "total": 1021.63
+                    }
+                ],
+                [
+                    "2018-04-01",
+                    {
+                        "domestic": 607.83,
+                        "intl": 146.65,
+                        "unreported": 0.0,
+                        "total": 754.48
+                    }
+                ],
+                [
+                    "2018-07-01",
+                    {
+                        "domestic": 617.6,
+                        "intl": 100.15,
+                        "unreported": 0.0,
+                        "total": 717.75
+                    }
+                ],
+                [
+                    "2018-10-01",
+                    {
+                        "domestic": 578.46,
+                        "intl": 92.94,
+                        "unreported": 0.0,
+                        "total": 671.4
+                    }
+                ],
+                [
+                    "2019-01-01",
+                    {
+                        "domestic": 711.61,
+                        "intl": 97.82,
+                        "unreported": 0.0,
+                        "total": 809.43
+                    }
+                ],
+                [
+                    "2019-04-01",
+                    {
+                        "domestic": 630.43,
+                        "intl": 91.43,
+                        "unreported": 0.0,
+                        "total": 721.86
+                    }
+                ],
+                [
+                    "2019-07-01",
+                    {
+                        "domestic": 550.36,
+                        "intl": 90.54,
+                        "unreported": 0.0,
+                        "total": 640.9
+                    }
+                ],
+                [
+                    "2019-10-01",
+                    {
+                        "domestic": 559.51,
+                        "intl": 93.99,
+                        "unreported": 0.0,
+                        "total": 653.5
+                    }
+                ],
+                [
+                    "2020-01-01",
+                    {
+                        "domestic": 579.35,
+                        "intl": 108.18,
+                        "unreported": 0.0,
+                        "total": 687.53
+                    }
+                ],
+                [
+                    "2020-04-01",
+                    {
+                        "domestic": 692.0,
+                        "intl": 75.6,
+                        "unreported": 0.0,
+                        "total": 767.6
+                    }
+                ],
+                [
+                    "2020-07-01",
+                    {
+                        "domestic": 667.47,
+                        "intl": 73.41,
+                        "unreported": 0.0,
+                        "total": 740.88
+                    }
+                ],
+                [
+                    "2020-10-01",
+                    {
+                        "domestic": 604.31,
+                        "intl": 120.35,
+                        "unreported": 0.0,
+                        "total": 724.66
+                    }
+                ],
+                [
+                    "2021-01-01",
+                    {
+                        "domestic": 672.19,
+                        "intl": 86.21,
+                        "unreported": 0.0,
+                        "total": 758.4
+                    }
+                ],
+                [
+                    "2021-04-01",
+                    {
+                        "domestic": 786.45,
+                        "intl": 70.85,
+                        "unreported": 0.0,
+                        "total": 857.3
+                    }
+                ],
+                [
+                    "2021-07-01",
+                    {
+                        "domestic": 728.29,
+                        "intl": 80.58,
+                        "unreported": 0.0,
+                        "total": 808.87
+                    }
+                ],
+                [
+                    "2021-10-01",
+                    {
+                        "domestic": 458.51,
+                        "intl": 60.38,
+                        "unreported": 0.0,
+                        "total": 518.89
+                    }
+                ],
+                [
+                    "2022-01-01",
+                    {
+                        "domestic": 684.43,
+                        "intl": 80.2,
+                        "unreported": 0.0,
+                        "total": 764.63
+                    }
+                ],
+                [
+                    "2022-04-01",
+                    {
+                        "domestic": 797.9,
+                        "intl": 59.48,
+                        "unreported": 0.0,
+                        "total": 857.38
+                    }
+                ],
+                [
+                    "2022-07-01",
+                    {
+                        "domestic": 743.69,
+                        "intl": 66.68,
+                        "unreported": 0.0,
+                        "total": 810.37
+                    }
+                ],
+                [
+                    "2022-10-01",
+                    {
+                        "domestic": 579.96,
+                        "intl": 54.55,
+                        "unreported": 0.0,
+                        "total": 634.51
+                    }
+                ],
+                [
+                    "2023-01-01",
+                    {
+                        "domestic": 773.26,
+                        "intl": 64.35,
+                        "unreported": 0.0,
+                        "total": 837.61
+                    }
+                ],
+                [
+                    "2023-04-01",
+                    {
+                        "domestic": 777.62,
+                        "intl": 70.86,
+                        "unreported": 0.0,
+                        "total": 848.48
+                    }
+                ],
+                [
+                    "2023-07-01",
+                    {
+                        "domestic": 800.94,
+                        "intl": 82.36,
+                        "unreported": 0.0,
+                        "total": 883.3
+                    }
+                ],
+                [
+                    "2023-10-01",
+                    {
+                        "domestic": 570.04,
+                        "intl": 73.72,
+                        "unreported": 0.0,
+                        "total": 643.76
+                    }
+                ],
+                [
+                    "2024-01-01",
+                    {
+                        "domestic": 897.53,
+                        "intl": 77.48,
+                        "unreported": 0.0,
+                        "total": 975.01
+                    }
+                ],
+                [
+                    "2024-04-01",
+                    {
+                        "domestic": 750.65,
+                        "intl": 75.93,
+                        "unreported": 0.0,
+                        "total": 826.58
+                    }
+                ],
+                [
+                    "2024-07-01",
+                    {
+                        "domestic": 546.94,
+                        "intl": 62.63,
+                        "unreported": 0.0,
+                        "total": 609.57
+                    }
+                ]
+            ],
+            "first_earnings_date": "2014-10-01T06:00:00Z",
+            "lifetime_amount": 31236.81,
+            "ltm": 3054.92,
+            "regions": [
+                "all"
+            ],
+            "statistics_last_updated": "2025-04-14T17:21:23.600914Z",
+            "three_years_average": 3070.03,
+            "top_earnings_by_year": {
+                "top_songs": [
+                    {
+                        "year": "year_1",
+                        "TIME WON T LET ME ": 2800.29,
+                        "LOST IN MY WORLD": 49.22
+                    },
+                    {
+                        "year": "year_2",
+                        "TIME WON T LET ME ": 3101.48,
+                        "LOST IN MY WORLD": 47.75
+                    },
+                    {
+                        "year": "year_3",
+                        "TIME WON T LET ME ": 2900.72,
+                        "LOST IN MY WORLD": 50.55
+                    },
+                    {
+                        "year": "year_4",
+                        "TIME WON T LET ME ": 3157.67,
+                        "LOST IN MY WORLD": 46.23
+                    },
+                    {
+                        "year": "year_5",
+                        "TIME WON T LET ME ": 3011.26,
+                        "LOST IN MY WORLD": 43.66
+                    }
+                ],
+                "top_income_types": [
+                    {
+                        "year": "year_1",
+                        "PERFORMANCE": 2849.51
+                    },
+                    {
+                        "year": "year_2",
+                        "PERFORMANCE": 3149.23
+                    },
+                    {
+                        "year": "year_3",
+                        "PERFORMANCE": 2951.27
+                    },
+                    {
+                        "year": "year_4",
+                        "PERFORMANCE": 3203.9
+                    },
+                    {
+                        "year": "year_5",
+                        "PERFORMANCE": 3054.92
+                    }
+                ],
+                "top_sources": [
+                    {
+                        "year": "year_1",
+                        "SATELLITE RADIO": 1597.22,
+                        "RADIO": 138.09,
+                        "STREAMING": 362.33,
+                        "INTERNATIONAL": 351.18,
+                        "STREAMING VIDEO": 2.76,
+                        "OTHER": 397.93
+                    },
+                    {
+                        "year": "year_2",
+                        "SATELLITE RADIO": 1434.61,
+                        "RADIO": 577.96,
+                        "STREAMING": 426.81,
+                        "INTERNATIONAL": 357.99,
+                        "STREAMING VIDEO": 18.75,
+                        "OTHER": 333.11
+                    },
+                    {
+                        "year": "year_3",
+                        "SATELLITE RADIO": 1183.1,
+                        "RADIO": 814.98,
+                        "STREAMING": 416.21,
+                        "INTERNATIONAL": 266.74,
+                        "STREAMING VIDEO": 29.03,
+                        "OTHER": 241.21
+                    },
+                    {
+                        "year": "year_4",
+                        "SATELLITE RADIO": 1241.92,
+                        "RADIO": 919.83,
+                        "STREAMING": 537.36,
+                        "INTERNATIONAL": 272.12,
+                        "STREAMING VIDEO": 9.67,
+                        "OTHER": 223.0
+                    },
+                    {
+                        "year": "year_5",
+                        "SATELLITE RADIO": 1008.43,
+                        "RADIO": 743.57,
+                        "STREAMING": 552.26,
+                        "INTERNATIONAL": 289.76,
+                        "STREAMING VIDEO": 241.23,
+                        "OTHER": 219.67
+                    }
+                ],
+                "top_music_users": null,
+                "top_royalty_payors": null
+            },
+            "top_income_types": [
+                {
+                    "name": "PERFORMANCE",
+                    "earnings": 3054.92,
+                    "track_count": 2
+                }
+            ],
+            "top_music_users": null,
+            "top_songs": [
+                {
+                    "name": "TIME WON T LET ME ",
+                    "earnings": 3011.26
+                },
+                {
+                    "name": "LOST IN MY WORLD",
+                    "earnings": 43.66
+                }
+            ],
+            "top_sources": [
+                {
+                    "name": "SATELLITE RADIO",
+                    "earnings": 1008.43,
+                    "track_count": 2,
+                    "earning_details": []
+                },
+                {
+                    "name": "RADIO",
+                    "earnings": 743.57,
+                    "track_count": 2,
+                    "earning_details": []
+                },
+                {
+                    "name": "STREAMING",
+                    "earnings": 552.26,
+                    "track_count": 2,
+                    "earning_details": []
+                },
+                {
+                    "name": "INTERNATIONAL",
+                    "earnings": 289.76,
+                    "track_count": 2,
+                    "earning_details": [
+                        {
+                            "name": "RADIO",
+                            "earnings": 150.43
+                        },
+                        {
+                            "name": "STREAMING",
+                            "earnings": 92.87
+                        },
+                        {
+                            "name": "LIVE",
+                            "earnings": 24.4
+                        },
+                        {
+                            "name": "TV-FILM",
+                            "earnings": 14.45
+                        },
+                        {
+                            "name": "OTHER",
+                            "earnings": 7.61
+                        }
+                    ]
+                },
+                {
+                    "name": "STREAMING VIDEO",
+                    "earnings": 241.23,
+                    "track_count": 2,
+                    "earning_details": []
+                },
+                {
+                    "name": "OTHER",
+                    "earnings": 219.67,
+                    "track_count": 4,
+                    "earning_details": []
+                }
+            ],
+            "track_list": [
+                {
+                    "parent_id": "",
+                    "id": "910183",
+                    "title": "LOST IN MY WORLD"
+                },
+                {
+                    "parent_id": "",
+                    "id": "1518315",
+                    "title": "TIME WON T LET ME "
+                }
+            ]
+        },
+        "valuation_description": 6304,
+        "last_websocket_message_published_at": "2025-04-24T14:55:12.407830Z"
+    }
+}

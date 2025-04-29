@@ -94,15 +94,18 @@ def parse_income_types_melted(json_data: dict, asset_id: str) -> pd.DataFrame:
 
 
 def parse_full_listing(json_data: dict, asset_id: str) -> dict:
-    listing = json_data.get("listing", {})
-    flat = {}
+    listing = json_data.get("listing", {}) or {}
+    flat = {"listing_id": asset_id}
 
     # Add top-level keys (excluding large nested stuff)
     for key, value in listing.items():
         if isinstance(value, (str, int, float, bool, type(None))):
             flat[key] = value
 
-    flat["Listing ID"] = asset_id
+
+    # Flatten valuation block if exists
+    valuation = listing.get("valuation")
+    flat.update(parse_valuation_block(valuation))
 
     return flat
 
@@ -144,3 +147,56 @@ def parse_youtube_link(html: str) -> str:
                 video_ids.append(vid)
     return ",".join(video_ids)
 
+
+def parse_valuation_block(valuation_json: dict) -> dict:
+    """Flatten the valuation block into simple fields."""
+    flattened = {}
+
+    if not valuation_json:
+        return flattened
+
+    # Basic fields
+    flattened["distribution_frequency"] = valuation_json.get("distribution_frequency")
+    flattened["dollar_age"] = valuation_json.get("dollar_age")
+
+    # Earnings by region block
+    earnings = valuation_json.get("earnings_by_region", [])
+    dates, domestic, intl, unreported, total = [], [], [], [], []
+    for record in earnings:
+        dates.append(record[0])
+        domestic.append(str(record[1].get("domestic", 0)))
+        intl.append(str(record[1].get("intl", 0)))
+        unreported.append(str(record[1].get("unreported", 0)))
+        total.append(str(record[1].get("total", 0)))
+
+    flattened["earnings_date"] = ",".join(dates)
+    flattened["earnings_domestic"] = ",".join(domestic)
+    flattened["earnings_intl"] = ",".join(intl)
+    flattened["earnings_unreported"] = ",".join(unreported)
+    flattened["earnings_total"] = ",".join(total)
+
+    # Top Songs
+    top_songs = valuation_json.get("top_songs", [])
+    flattened["song_names"] = ",".join([song.get("name", "") for song in top_songs])
+    flattened["song_earnings"] = ",".join([str(song.get("earnings", "")) for song in top_songs])
+
+    # Top Sources
+    top_sources = valuation_json.get("top_sources", [])
+    flattened["source_names"] = ",".join([src.get("name", "") for src in top_sources])
+    flattened["source_earnings"] = ",".join([str(src.get("earnings", "")) for src in top_sources])
+
+    # Top Income Types
+    top_income_types = valuation_json.get("top_income_types", [])
+    flattened["income_type_names"] = ",".join([inc.get("name", "") for inc in top_income_types])
+    flattened["income_type_earnings"] = ",".join([str(inc.get("earnings", "")) for inc in top_income_types])
+
+    # Top Music Users (optional)
+    top_music_users = valuation_json.get("top_music_users", [])
+    if top_music_users:
+        flattened["music_user_names"] = ",".join([user.get("name", "") for user in top_music_users])
+        flattened["music_user_earnings"] = ",".join([str(user.get("earnings", "")) for user in top_music_users])
+    else:
+        flattened["music_user_names"] = ""
+        flattened["music_user_earnings"] = ""
+
+    return flattened

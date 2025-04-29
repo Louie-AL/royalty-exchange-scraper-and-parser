@@ -1,3 +1,10 @@
+financials.csv
+financials_consolidated.xlsx
+offers.csv
+offers_consolidated.csv
+raw_listing_data.csv
+raw_listing_data_consolidated.csv
 asset_ids.csv
 asset_ids_2.csv
 asset_ids_consolidated.csv
+sample_dataset.csv

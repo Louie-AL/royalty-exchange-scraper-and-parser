@@ -4,9 +4,10 @@ from parser import (
     parse_monthly_revenues, 
     parse_income_types_melted,
     parse_full_listing,
-    parse_youtube_link
+    parse_youtube_link,
+    extract_next_data
 )
-from scraper import init_driver, get_html_from_asset, get_json_from_api
+from scraper import init_driver, get_html_from_asset, get_json_from_api, get_html_from_url
 from utils import delay, setup_logger
 import pandas as pd
 import csv
@@ -19,19 +20,32 @@ def read_asset_ids_from_csv(path: str) -> list:
     with open(path, "r") as f:
         return [int(row["asset_id"]) for row in csv.DictReader(f)]
 
+def read_pa_assets(path: str) -> list[dict]:
+    """
+    Returns list of {'asset_id': int, 'URL': str}.
+    """
+    return pd.read_csv(path, dtype={"asset_id":int, "URL":str}).to_dict(orient="records")
+
 logger = setup_logger()
 
 all_monthly_revenue = []
 all_income_types = []
 all_full_listings = []
 
-def main(asset_ids):
+def main(asset_ids, pa_assets):
     all_financials = []
     all_offers = []
 
     driver = init_driver()  # Initialize driver once
 
-    for aid in asset_ids:
+    # 1) Separate “new” vs “PAFlow” IDs
+    pa_ids = {rec["asset_id"] for rec in pa_assets}
+    std_ids = [ aid for aid in asset_ids if aid not in pa_ids]
+
+    logger.info(f"Will JSON+HTML parse {len(std_ids)} new assets, and HTML‐only parse {len(pa_assets)} old assets")
+
+    for aid in std_ids:
+    # 2) JSON + HTML scrape for the “new” assets
         try:
             logger.info(f"Processing asset {aid}")
             html = get_html_from_asset(aid, driver)
@@ -66,6 +80,58 @@ def main(asset_ids):
         except Exception as e:
             logger.error(f"Failed to process asset {aid}: {e}")
 
+    # 3) HTML‐only scrape for your PAFlow (“old”) assets
+    for rec in pa_assets:
+        aid, url = rec["asset_id"], rec["URL"]
+        try:
+            logger.info(f"Processing PAFlow asset {aid} at {url}")
+            html = get_html_from_url(url, driver)
+
+            # sanity checks
+            logger.debug(f"Driver at {driver.current_url}")
+            logger.debug(f"HTML starts with: {html[:100]}")
+            
+            # 1) basic HTML parse
+            fd = parse_html(html)
+            fd["Asset ID"] = aid
+            fd["YouTube Link"] = parse_youtube_link(html)
+            all_financials.append(fd)
+
+            # 2) now pull out json and run ALL your parsers on it
+            nd = extract_next_data(html)
+            listing = nd.get("props", {}) \
+                        .get("pageProps", {}) \
+                        .get("listing", {})
+            
+            if listing:
+                json_data = {"listing": listing}
+
+                # Offers
+                offers_data = parse_offers(json_data, aid)
+                all_offers.extend(offers_data)
+
+                # Monthly revenues
+                monthly_data = parse_monthly_revenues(json_data, aid)
+                if not monthly_data.empty:
+                    all_monthly_revenue.append(monthly_data)
+
+                # Income types
+                income_data = parse_income_types_melted(json_data, aid)
+                if not income_data.empty:
+                    all_income_types.append(income_data)
+
+                # Full listing
+                full_data = parse_full_listing(json_data, aid)
+                all_full_listings.append(full_data)
+
+            # So far, Ive noticed no API response in JSON format here
+            # No offers/monthly/income neither
+            delay()
+
+        except Exception as e:
+            logger.error(f"PAFlow asset {aid} failed: {e}")
+
+
     driver.quit()  # Close driver at the end
 
     pd.DataFrame(all_financials).to_csv(FINANCIALS_OUTPUT, index=False)
@@ -84,5 +150,6 @@ def main(asset_ids):
     logger.info("Scraping completed successfully.")
 
 if __name__ == "__main__":
-    asset_ids = read_asset_ids_from_csv("asset_ids.csv")
-    main(asset_ids)
+    std_ids    = read_asset_ids_from_csv("asset_ids.csv")
+    pa_assets  = read_pa_assets("asset_ids_PAFlow.csv")
+    main(std_ids, pa_assets)

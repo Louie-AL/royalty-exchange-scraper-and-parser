@@ -3,6 +3,9 @@
 from selenium import webdriver
 from selenium.webdriver.edge.options import Options
 from selenium.webdriver.edge.service import Service as EdgeService
+from selenium.webdriver.common.by import By
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
 from webdriver_manager.microsoft import EdgeChromiumDriverManager
 import requests
 import time
@@ -15,6 +18,7 @@ def init_driver():
     service = EdgeService(EdgeChromiumDriverManager().install())
     return webdriver.Edge(service=service, options=options)
 
+#delay time here is arbitrary, maybe can improve on that later on
 def get_html_from_asset(asset_id: str, driver, delay: float = 5.0) -> str:
     url = f"https://auctions.royaltyexchange.com/orderbook/asset-detail/{asset_id}/"
     driver.get(url)
@@ -31,3 +35,8 @@ def get_json_from_api(asset_id: str) -> dict:
     logger.warning(f"Listing JSON for asset {asset_id} returned {response.status_code}")
     return {}
 
+#delay time here is arbitrary, maybe can improve on that later on
+def get_html_from_url(url: str, driver, delay: float = 5.0) -> str:
+    driver.get(url)
+    time.sleep(delay)
+    return driver.page_source

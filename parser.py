@@ -5,6 +5,7 @@ import pandas as pd
 import re
 import io
 import requests
+import json
 
 def parse_html(html: str) -> dict:
     soup = BeautifulSoup(html, "lxml")
@@ -200,3 +201,11 @@ def parse_valuation_block(valuation_json: dict) -> dict:
         flattened["music_user_earnings"] = ""
 
     return flattened
+
+def extract_next_data(html: str) -> dict:
+    soup = BeautifulSoup(html, "html.parser")
+    script = soup.find("script", id="__NEXT_DATA__")
+    if not script or not script.string:
+        return {}
+    return json.loads(script.string)
+

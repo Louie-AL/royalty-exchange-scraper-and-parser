@@ -7,6 +7,13 @@ from parser import (
     parse_youtube_link,
     extract_next_data
 )
+
+from parser_pa import (
+    parse_pa_financials,
+    parse_pa_offers,
+    parse_pa_raw_listing
+)
+
 from scraper import init_driver, get_html_from_asset, get_json_from_api, get_html_from_url
 from utils import delay, setup_logger
 import pandas as pd
@@ -84,46 +91,17 @@ def main(asset_ids, pa_assets):
     for rec in pa_assets:
         aid, url = rec["asset_id"], rec["URL"]
         try:
-            logger.info(f"Processing PAFlow asset {aid} at {url}")
             html = get_html_from_url(url, driver)
 
-            # sanity checks
-            logger.debug(f"Driver at {driver.current_url}")
-            logger.debug(f"HTML starts with: {html[:100]}")
-            
-            # 1) basic HTML parse
-            fd = parse_html(html)
-            fd["Asset ID"] = aid
-            fd["YouTube Link"] = parse_youtube_link(html)
-            all_financials.append(fd)
+            fin = parse_pa_financials(html)
+            fin["Asset ID"] = aid
+            all_financials.append(fin)
 
-            # 2) now pull out json and run ALL your parsers on it
-            nd = extract_next_data(html)
-            listing = nd.get("props", {}) \
-                        .get("pageProps", {}) \
-                        .get("listing", {})
-            
-            if listing:
-                json_data = {"listing": listing}
+            offers = parse_pa_offers(html, aid)
+            all_offers.extend(offers)
 
-                # Offers
-                offers_data = parse_offers(json_data, aid)
-                all_offers.extend(offers_data)
-
-                # Monthly revenues
-                monthly_data = parse_monthly_revenues(json_data, aid)
-                if not monthly_data.empty:
-                    all_monthly_revenue.append(monthly_data)
-
-                # Income types
-                income_data = parse_income_types_melted(json_data, aid)
-                if not income_data.empty:
-                    all_income_types.append(income_data)
-
-                # Full listing
-                full_data = parse_full_listing(json_data, aid)
-                all_full_listings.append(full_data)
-
+            full_listing = parse_pa_raw_listing(html, aid)
+            all_full_listings.append(full_listing)
             # So far, Ive noticed no API response in JSON format here
             # No offers/monthly/income neither
             delay()
@@ -137,6 +115,7 @@ def main(asset_ids, pa_assets):
     pd.DataFrame(all_financials).to_csv(FINANCIALS_OUTPUT, index=False)
     pd.DataFrame(all_offers).to_csv(OFFERS_OUTPUT, index=False)
     pd.DataFrame(all_full_listings).to_csv("raw_listing_data.csv", index=False)
+
 
     print(f"Monthly revenue collected for {len(all_monthly_revenue)} assets.")
     print(f"Income types collected for {len(all_income_types)} assets.")

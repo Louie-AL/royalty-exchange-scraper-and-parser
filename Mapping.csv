@@ -1,0 +1,31 @@
+Target Table,Field,Found In,Found under the name,Is it in the website?
+week2_deals,name,raw_listing_data.csv,title,
+week2_deals,type,financials.csv,Term,
+week2_deals,deal_date,financials.csv,Last Transaction Date,
+week2_deals,market_median,raw_listing_data.csv,marketplace_median,
+week2_deals,multiplier,financials.csv,LTM Multiple,
+week2_deals,LTM,financials.csv,Last 12 Months,
+week2_deals,age,financials.csv,Dollar Age,
+week2_deals,ID,financials.csv,Listing ID,
+week2_deals,price,financials.csv,Sale Price,
+week2_revenues,name,raw_listing_data.csv,song_names,
+week2_revenues,track_id.1,NULL,NULL,YES
+week2_revenues,year,raw_listing_data.csv,earnings_date,
+week2_revenues,asset_id,raw_listing_data.csv,listing_id,
+week2_revenues,distributor,raw_listing_data.csv,other_info,
+week2_revenues,track_id,NULL,NULL,YES
+week2_revenues,asset_id.1,raw_listing_data.csv,listing_id,
+week2_revenues,revenue,raw_listing_data.csv,earnings_total,
+week2_revenues,song_id,NULL,NULL,NO
+week2_revenues,percentage,raw_listing_data.csv,earnings_total,
+week2_revenues,quarter,raw_listing_data.csv,earnings_date,
+week2_songs,type,raw_listing_data.csv,term,
+week2_songs,name,raw_listing_data.csv,title,
+week2_songs,year,raw_listing_data.csv,performing_artist_analysis,
+week2_songs,asset_id,raw_listing_data.csv,listing_id,
+week2_songs,title,raw_listing_data.csv,song_names,
+week2_songs,artist,raw_listing_data.csv,performing_artist_analysis,
+week2_songs,artist_popularity,NULL,NULL,NO
+week2_songs,genre,NULL,NULL,NO
+week2_songs,song_id,NULL,NULL,NO
+week2_songs,song_popularity,NULL,NULL,NO

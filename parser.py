@@ -96,7 +96,7 @@ def parse_income_types_melted(json_data: dict, asset_id: str) -> pd.DataFrame:
 
 def parse_full_listing(json_data: dict, asset_id: str) -> dict:
     listing = json_data.get("listing", {}) or {}
-    flat = {"listing_id": asset_id}
+    flat = {"Listing ID": asset_id}
 
     # Add top-level keys (excluding large nested stuff)
     for key, value in listing.items():
